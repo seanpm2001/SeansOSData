@@ -1,0 +1,12 @@
+Start of file
+==============================
+Multiverse.txt
+==============================
+About the OS Data universe
+This project originally started out as a way to transfer data from my Samsung galaxy S7 edge to a new device. In its first week, it has gone from that to a virtual universe of data for all my electronic devices.
+They are in galaxy folders inside a universe folder. The root folder is considered the multiverse
+==============================
+File version: 1 (October 31st 2019)
+First version: 1 (October 31st 2019)
+==============================
+End of file

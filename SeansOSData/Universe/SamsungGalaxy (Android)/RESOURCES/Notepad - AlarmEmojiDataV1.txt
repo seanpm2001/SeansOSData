@@ -1,0 +1,20 @@
+Samsung Galaxy S7 edge alarm clock Unicode data
+
+First emoji alarm name
+
+🔵🔲🆗️🔲🔵
+[Blue sphere emoji] [black square emoji] [OK block emoji] [black square emoji] [blue sphere emoji]
+
+Second emoji alarm name
+
+WindowsXPWakeup🅱️
+(Name)[B emoji)
+
+Third emoji alarm name
+
+🅱️ℹ🅱️
+[B emoji] [info emoji] [B emoji]
+
+======================================
+End of file
+======================================

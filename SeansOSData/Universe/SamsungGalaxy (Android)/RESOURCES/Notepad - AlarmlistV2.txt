@@ -1,0 +1,405 @@
+Alarm 1 of 50
+00:00 am
+Name: 
+Time: 00:00 Saturday 26th 2017/2018/2019/+*
+Repeat: no days
+Snooze: 5 minutes 3 times
+Alarm sound: on the stage
+Vibration: basic call
+Read-aloud: false
+Alarm 2 of 50
+01:00 am
+Name:
+Time: 01:00 October 26th 2017/2018/2019/+*
+Repeat: none
+Snooze: 5 minutes 3 times
+Alarm sound: morning flower
+Vibration: basic call
+Read-aloud: false
+Alarm 3 of 50
+Name: unexpectedwakeup?!?!
+Time: 2:39 am
+Repeat: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+Snooze: 5 minutes 3 times
+Alarm sound: morning flower
+Vibration: basic call
+Read-aloud: false
+Alarm 4 of 50
+Name: super seanic
+Time: 02:50 
+Repeat: everyday
+Snooze: 5 minutes, continuously
+Alarm sound: paper guitar
+Vibration: heartbeat
+Read-aloud: true
+Alarm 5 of 50
+Name: 🔵🔲🆗️🔲🔵
+Time: 03:00
+Repeat: everyday
+Snooze: 5 minutes, continuously
+Alarm sound: one step forward
+Vibration: basic call
+Read-aloud: false
+Alarm 6 of 50
+Title:
+Time: 03:15
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: soft chimes
+Vibration: basic call
+Read-aloud: false
+Alarm 7 of 50
+Title: 330p
+Time: 03:45
+Repeat: everyday
+Snooze: 5 minutes, continuously
+Alarm sound: platinum
+Vibration: zig-zig-zig
+Read-aloud: true
+Alarm 8 of 50
+Title: morning6
+Time: 03:50
+Repeat: everyday
+Snooze: 5 minutes, continuously
+Alarm sound: evening breeze
+Vibration: basic call
+Read-aloud: true
+Alarm 9 of 50
+Title: $$$$$$$$$$#%$$%#&,@<
+Time: 04:04
+Repeat: Monday, Tuesday, Wednesday, Thursday, Friday
+Snooze: 5 minutes, continuously
+Alarm sound: super sonic
+Vibration: basic call
+Read-aloud: true
+Alarm 10 of 50
+Title: slepy
+Time: 04:15
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: paper guitar
+Vibration: basic call
+Read-aloud: false
+Alarm 11 of 50
+Title: ####################
+Time: 04:30
+Repeat: everyday
+Snooze: 5 minutes, continuously
+Alarm sound: windows 95 startup sound
+Vibration: waltz
+Read-aloud: true
+Alarm 12 of 50
+Title: wow
+Time: 04:45
+Repeat: everyday
+Snooze: 5 minutes, continuously
+Alarm sound: echo
+Vibration: basic call
+Read-aloud: true:
+Alarm 13 of 50
+Title: newscreenrecorder
+Time: 04:56
+Repeat: Monday, Tuesday, Wednesday, Thursday, Friday
+Snooze: 5 minutes, 3 times
+Alarm sound: VZW airwaves
+Vibration: basic call
+Read-aloud: true
+Alarm 14 of 50
+Title:
+Time: 05:07
+Repeat: Monday, Tuesday, Wednesday, Thursday, Friday
+Snooze: 5 minutes, 3 times
+Alarm sound:  soft chimes
+Vibration: basic call
+Read-aloud: true
+Alarm 15 of 50
+Title: uhoh!retardalert
+Time: 05:15
+Repeat: Monday, Tuesday, Wednesday, Thursday, Friday
+Snooze: 5 minutes, 3 times
+Alarm sound: one step forward
+Vibration: basic call
+Read-aloud: true
+Alarm 16 of 50
+Title: Scrnrecrdrweekend
+Time: 05:20
+Repeat: Monday, Tuesday, Wednesday, Thursday, Friday
+Snooze: 5 minutes, continuously 
+Alarm sound: tomorrow
+Vibration: heartbeat
+Read-aloud: false
+Alarm 17 of 50
+Title: wakeupsleepyhead
+Time: 05:30
+Repeat: Monday, Tuesday, Wednesday, Thursday, Friday
+Snooze: 5 minutes, continuously
+Alarm sound: Windows 2000 startup sound
+Vibration: basic call
+Read-aloud: true
+Alarm 18 of 50
+Title: mitchywakywaky
+Time: 05:38
+Repeat: Monday, Tuesday, Wednesday, Thursday, Friday
+Snooze: 5 minutes, 3 times
+Alarm sound: spacecraft
+Vibration: heartbeat
+Read-aloud: false
+Alarm 19 of 50
+Title: WinXPchimerwakeup🅱
+Time: 05:45
+Repeat: Monday, Tuesday, Wednesday, Thursday, Friday
+Snooze: 5 minutes, continuously
+Alarm sound: Windows_XP_Welcome-ringtone-1310692
+Vibration: basic call
+Read-aloud: true
+Alarm 20 of 50
+Title:
+Time: 05:52
+Repeat: Monday, Tuesday, Wednesday, Thursday, Friday
+Snooze: 5 minutes, 3 times
+Alarm sound: percussion
+Vibration: basic call
+Read-aloud: false
+Alarm 21 of 50 
+Title: wakedaddyup
+Time: 06:00
+Repeat: everyday
+Snooze: 5 minutes, continuouslt
+Alarm sound: basic tone
+Vibration: basic call
+Read-aloud: true
+Alarm 22 of 50 
+Title: summerfuntime
+Time: 06:00
+Repeat: Monday, Tuesday, Wednesday, Thursday, Friday
+Snooze: 5 minutes, continuously
+Alarm sound: percussion
+Vibration: heartbeat
+Read-aloud: true
+Alarm 23 of 50 
+Title: NewSchedule 12.18.17
+Time: 06:10
+Repeat: everyday
+Snooze: 5 minute, continuously 
+Alarm sound: metal drop
+Vibration: basic call
+Read-aloud: true
+Alarm 24 of 50 
+Title: Newsched 12.18.17 2
+Time: 06:20
+Repeat: everyday
+Snooze: 5 minutes, continuously
+Alarm sound: Windows_Xp-ringtone-1308842
+Vibration: zig-zig-zig
+Read-aloud: true
+Alarm 25 of 50 
+Title: school
+Time: 06:30
+Repeat: everyday
+Snooze: 5 minutes, continuously
+Alarm sound: VZW Airwaves
+Vibration: heartbeat
+Read-aloud: true
+Alarm 26 of 50
+Title: time2getoutofbedsean
+Time: 07:20
+Repeat: everyday
+Snooze: 5 minutes, continuously
+Alarm sound: VZW airwaves
+Vibration: basic call
+Read-aloud: true
+Alarm 27 of 50
+Title: napovr2
+Time: 07:25
+Repeat: everyday
+Snooze: 5 minutes, continuously
+Alarm sound: paper guitar
+Vibration: basic call
+Read-aloud: false
+Alarm 28 of 50
+Title: 2000
+Time: 07:25
+Repeat: everyday
+Snooze: 5 minutes, continuously
+Alarm sound: Windows 2000 startup
+Vibration: heartbeat
+Read-aloud: true
+Alarm 29 of 50
+Title: getupsean
+Time: 07:35
+Repeat: everyday
+Snooze: 5 minutes, continously
+Alarm sound: beep once
+Vibration: basic call
+Read-aloud: false
+Alarm 30 of 50
+Title: get up
+Time: 07:37
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: doll house
+Vibration: basic call
+Read-aloud: true
+Alarm 31 of 50
+Title: HaUjustgotprankedbro
+Time: 07:44
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: on the stage
+Vibration basic call
+Read-aloud: false
+Alarm 32 of 50
+Title: Get.the.F.up
+Time: 07:45
+Repeat: everyday
+Snooze: 5 minutes, continuously
+Alarm sound: brilliant tone
+Vibration: basic call
+Read-aloud: false
+Alarm 33 of 50
+Title: KEKWILLRISEIFUDNTGUP
+Time: 08:00
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: VZW airwaves
+Vibration: basic call
+Read-aloud: true
+Alarm 34 of 50
+Title: gtfu
+Time: 08:15
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: soft chimes
+Vibration: basic call
+Read-aloud: true
+Alarm 35 of 50
+Title: Daylightsavingssucks
+Time: 08:35
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: morning flower
+Vibration: basic call
+Read-aloud: true
+Alarm 36 of 50
+Title:
+Time: 09:00
+Repeat: everyday
+Snooze: 5 minutes, 3 timss
+Alarm sound: paper guitar
+Vibration: basic call
+Read-aloud: false
+Alarm 37 of 50
+Title: Wakuporithapnsagn
+Time: 09:11
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: Windows_Xp-ringtone-13088rw
+Vibration: basic call
+Read-aloud: true
+Alarm 38 of 50
+Title:
+Time: 09:30
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: paper guitar
+Vibration: basic call
+Read-aloud: false
+Alarm 39 of 50
+Title:
+Time: 10:00
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: scampering tone
+Vibration: basic call
+Read-aloud: true
+Alarm 40 of 50
+Title: Futass pootis
+Time: 10:15
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: percussion
+Vibration: basic call
+Read-aloud: false
+Alarm 41 of 50
+Title: dog
+Time: 11:00
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: paper guitar
+Vibration: basic call
+Read-aloud: true
+Alarm 42 of 50
+Title: Dontforgetwritedrink
+Time: 14:23
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: mute
+Vibration: zig-zig-zig
+Read-aloud: false/disabled
+Alarm 43 of 50
+Title: Mitchie_is_home?
+Time: 15:15
+Repeat: Monday, Tuesday, Wednesday, Thursday, Friday
+Snooze: 5 minutes, 3 times
+Alarm sound: scampering tone
+Vibration: basic call
+Read-aloud: false
+Alarm 44 of 50
+Title: Lenny face
+Time: 14:00
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: morning flower
+Vibration: off
+Read-aloud: false
+Alarm 45 of 50
+Title:  🅱ℹ🅱
+Time: 17:55
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: Windows_Xp_Welcome-Ringtone-1310692
+Vibration: basic call
+Read-aloud: true
+Alarm 46 of 50
+Title: Napover
+Time: 18:15
+Repeat: none
+Snooze: 5 minutes, continuously
+Alarm sound: paper guitar
+Vibration: basic call
+Read-aloud:  false
+Alarm 47 of 50
+Title: Pills+freechesttime]
+Time: 19:05
+Repeat: everyday
+Snooze: 5 minutes, 3 times
+Alarm sound: morning flower
+Vibration: off
+Read-aloud: false
+Alarm 48 of 50
+Title:
+Time: 19:14
+Repeat: everyday
+Snooze: 5 minutes, continuously
+Alarm sound: scampering tone
+Vibration: basic call
+Read-aloud: true
+Alarm 49 of 50
+Title:
+Time: 21:00
+Repeat: none
+Snooze: 5 minutes, 3 times
+Alarm sound: percussion
+Vibration: basic call
+Read-aloud: false
+Alarm 50 of 50
+Title:
+Time: 23:00
+Repeat: none
+Snooze: 5 minutes, 3 times
+Alarm sound: times up
+Vibration: basic call
+Read-aloud: true
+
+END
+Max alarm title: 20 characters

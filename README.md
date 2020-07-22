@@ -45,13 +45,19 @@ See above
 
 ## Wiki
 
+[Version 1.00A](https://github.com/seanpm2001/SeansOSData/releases/tag/V1.00A/) - 41 commits (Released on: July 22nd 2020 at 4:18 pm)
+
+[Version 1.00B](https://github.com/seanpm2001/SeansOSData/releases/tag/V1.00B/) - 49 commits (Released on: July 22nd 2020 at 4:22 pm)
+
 [Click/tap here to view this projects Wiki](https://github.com/seanpm2001/SeansOSData/wiki)
 
 ***
 
 ## Version history
 
-[More versions coming soon](https://www.example.com)
+
+
+[More versions coming soon](https://github.com/seanpm2001/SeansOSData/releases)
 
 ***
 
@@ -59,7 +65,7 @@ See above
 
 Currently, I am the only contributer. I will not accept any other contributers, this is a personal project.
 
-> * 1. [seanpm2001](https://github.com/seanpm2001/) - 41 commits (As of Wednesday, July 22nd 2020 at 4:16 pm)
+> * 1. [seanpm2001](https://github.com/seanpm2001/) - 50 commits (As of Wednesday, July 22nd 2020 at 4:26 pm)
 
 > * 2. No other contributers allowed
 
@@ -77,9 +83,9 @@ You can view the rules [here](https://github.com/seanpm2001/SeansOSData/blob/mas
 
 File type: `Markdown (*.md)`
 
-File version: `1 (Wednesday, July 22nd 2020 at 4:16 pm)`
+File version: `2 (Wednesday, July 22nd 2020 at 4:26 pm)`
 
-Line count: `0,129`
+Line count (including blank lines and compiler line): `0,151`
 
 ***
 
@@ -113,7 +119,23 @@ Line count: `0,129`
 
 > * Added the footer
 
-* Version 2 (Coming soon)
+* Version 2 (Wednesday, July 22nd 2020 at 4:26 pm)
+
+> Changes:
+
+> * Updated the About README section
+
+> * Updated the README Version history section
+
+> * Updated the version history section
+
+* Version 3 (Coming soon)
+
+> Changes:
+
+> * Coming soon
+
+* Version 4 (Coming soon)
 
 > Changes:
 

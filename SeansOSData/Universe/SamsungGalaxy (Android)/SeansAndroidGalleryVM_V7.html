@@ -1,0 +1,2073 @@
+<!-- Start of script !-->
+<HTML>
+<BODY>
+<link rel="icon" href="ICONS/S7EDGEBACKUPFAVICON.ico" type="image/x-icon">
+<HEAD>
+<Meta>
+	<meta charset="UTF-8">
+</Meta>
+<script>
+console.log("Reading script");
+console.log("Loading images");
+console.log("Reading from CSS internal stylesheet");
+console.log("Getting PHP data");
+console.log("Finalizing...");
+console.log("Page loaded!");
+</script>
+<?
+// Future update plans
+/*
+Grid view for all sections
+Improved grids
+A 6th device
+Apps organized on a grid
+Logo for Google and Google accounts
+Built-in audio menus
+And more
+*/
+// Future update plans will be stored in this PHP script section for now
+?>
+<style>
+// From stylesheet
+/* Start of stylesheet rules */
+/* Transparent boxes */
+Title2 {
+	size: 100px;
+	color: black;
+}
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
+div.transbox {
+  margin-top: 0px;
+  margin-bottom: 0px; 
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #00BFFF; /* The text was there, the background was the wrong color. A new beautiful shade of blue was added to fix this - April 6th 2019 */
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+div.transbox p {
+  margin: 1%; /* make sure this stays at 1%. At 5%, there is a large spacing issue between each new paragraph */
+  font-weight: bold;
+  color: #ffffff;
+}
+/* Sidebar */
+body {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 16%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+/* Topbar */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Headings */
+H1 {
+	color: black;
+}
+H2 {
+	color: black;
+}
+H3 {
+	color: black;
+}
+H4 {
+	color: black;
+}
+H5 {
+	color: black;
+}
+H6 {
+	color: black;
+}
+/* Dividers, paragraphs */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* Note that it can not be centered if the width is set to 100% (full-width). */
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+<TITLE>Seans Android VM Gallery - S7 edge backup and older phone data</TITLE>
+<BODY BGCOLOR="777777"> <!-- Nice shade of grey !-->
+<!-- BODY BGCOLOR="FFFFFF"> !--><!-- Shade of white !-->
+</HEAD>
+<ul>
+<img src="ICONS/AndroidRobot.png" alt="Android(Logo)" width="215" height="225">
+<li><a class="active" href="#home">Android VM Data gallery tool</a></li>
+<li><HR></li>
+<details><summary><p>HTC index</p>
+<p>Click here to expand</p></summary>
+<p><a href="#InternalChecklist1">Internal checklist</a></p>
+<p><a href="#AppsSection1">Apps section</a></p>
+<p><a href="#ReinstallSection1">Reinstall section</a></p>
+<p><a href="#VRAppSection1">VR (Virtual Reality) app section</a></p>
+<p><a href="#GoogleSection1">Google apps section</a></p>
+<p><a href="#BrowserSection1">Browser section</a></p>
+<p><a href="#PreloadedAppsSection1">Pre-loaded apps section</a></p>
+<p><a href="#FoldersSection1">Desktop1 folders section</a></p>
+<p><a href="#DesktopSection1">Desktop gallery section (1 and 2)</a></p>
+<p><a href="#AllAppsCollection1">All apps (collection)</a></p>
+<p><a href="#AllAppsToBackup1">All apps to backup</a></p>
+<p><a href="#ManualAppDataBackup1">Manual app data backup</a></p>
+<p><a href="#GoogleAccountList1">Google account list</a></p>
+<p><a href="#ShortcutSection1">Shortcut section</a></p>
+<p><a href="#OtherDeviceInfo1">Other device info</a></p>
+</details>
+<li><HR></li>
+<details><summary><p>S2 index</p>
+<p>Click here to expand</p></summary>
+<p><a href="#InternalChecklist2">Internal checklist</a></p>
+<p><a href="#AppsSection2">Apps section</a></p>
+<p><a href="#ReinstallSection2">Reinstall section</a></p>
+<p><a href="#VRAppSection2">VR (Virtual Reality) app section</a></p>
+<p><a href="#GoogleSection2">Google apps section</a></p>
+<p><a href="#BrowserSection2">Browser section</a></p>
+<p><a href="#PreloadedAppsSection2">Pre-loaded apps section</a></p>
+<p><a href="#FoldersSection2">Desktop1 folders section</a></p>
+<p><a href="#DesktopSection2">Desktop gallery section (1 and 2)</a></p>
+<p><a href="#AllAppsCollection2">All apps (collection)</a></p>
+<p><a href="#AllAppsToBackup2">All apps to backup</a></p>
+<p><a href="#ManualAppDataBackup2">Manual app data backup</a></p>
+<p><a href="#GoogleAccountList2">Google account list</a></p>
+<p><a href="#ShortcutSection2">Shortcut section</a></p>
+<p><a href="#OtherDeviceInfo2">Other device info</a></p>
+</details>
+<li><HR></li>
+<details><summary><p>Samsung Galaxy Core prime (1) index</p>
+<p>Click here to expand</p></summary>
+<p><a href="#InternalChecklist3">Internal checklist</a></p>
+<p><a href="#AppsSection3">Apps section</a></p>
+<p><a href="#ReinstallSection3">Reinstall section</a></p>
+<p><a href="#VRAppSection3">VR (Virtual Reality) app section</a></p>
+<p><a href="#GoogleSection3">Google apps section</a></p>
+<p><a href="#BrowserSection3">Browser section</a></p>
+<p><a href="#PreloadedAppsSection3">Pre-loaded apps section</a></p>
+<p><a href="#FoldersSection3">Desktop1 folders section</a></p>
+<p><a href="#DesktopSection3">Desktop gallery section (1 and 2)</a></p>
+<p><a href="#AllAppsCollection3">All apps (collection)</a></p>
+<p><a href="#AllAppsToBackup3">All apps to backup</a></p>
+<p><a href="#ManualAppDataBackup3">Manual app data backup</a></p>
+<p><a href="#GoogleAccountList3">Google account list</a></p>
+<p><a href="#ShortcutSection3">Shortcut section</a></p>
+<p><a href="#OtherDeviceInfo3">Other device info</a></p>
+</details>
+<li><HR></li>
+<details><summary><p>Samsung Galaxy Core prime (2) index</p>
+<p>Click here to expand</p></summary>
+<p><a href="#InternalChecklist4">Internal checklist</a></p>
+<p><a href="#AppsSection4">Apps section</a></p>
+<p><a href="#ReinstallSection4">Reinstall section</a></p>
+<p><a href="#VRAppSection4">VR (Virtual Reality) app section</a></p>
+<p><a href="#GoogleSection4">Google apps section</a></p>
+<p><a href="#BrowserSection4">Browser section</a></p>
+<p><a href="#PreloadedAppsSection4">Pre-loaded apps section</a></p>
+<p><a href="#FoldersSection4">Desktop1 folders section</a></p>
+<p><a href="#DesktopSection4">Desktop gallery section (1 and 2)</a></p>
+<p><a href="#AllAppsCollection4">All apps (collection)</a></p>
+<p><a href="#AllAppsToBackup4">All apps to backup</a></p>
+<p><a href="#ManualAppDataBackup4">Manual app data backup</a></p>
+<p><a href="#GoogleAccountList4">Google account list</a></p>
+<p><a href="#ShortcutSection4">Shortcut section</a></p>
+<p><a href="#OtherDeviceInfo4">Other device info</a></p>
+</details>
+<li><HR></li>
+<details><summary><p>S7 edge Index</p>
+<p>Click here to expand</p></summary>
+<p><a href="#InternalChecklist5">Internal checklist</a></p>
+<p><a href="#AppsSection5">Apps section</a></p>
+<p><a href="#ReinstallSection5">Reinstall section</a></p>
+<p><a href="#VRAppSection5">VR (Virtual Reality) app section</a></p>
+<p><a href="#GoogleSection5">Google apps section</a></p>
+<p><a href="#BrowserSection5">Browser section</a></p>
+<p><a href="#PreloadedAppsSection5">Pre-loaded apps section</a></p>
+<p><a href="#FoldersSection5">Desktop1 folders section</a></p>
+<p><a href="#DesktopSection5">Desktop gallery section (1 and 2)</a></p>
+<p><a href="#AllAppsCollection5">All apps (collection)</a></p>
+<p><a href="#AllAppsToBackup5">All apps to backup</a></p>
+<p><a href="#ManualAppDataBackup5">Manual app data backup</a></p>
+<p><a href="#GoogleAccountList5">Google account list</a></p>
+<p><a href="#ShortcutSection5">Shortcut section</a></p>
+<p><a href="#OtherDeviceInfo5">Other device info</a></p>
+</details>
+<li><HR></li>
+<details><summary><p>[NEW DEVICE] Index</p>
+<p>Click here to expand</p></summary>
+<p><a href="#InternalChecklist6">Internal checklist</a></p>
+<p><a href="#AppsSection6">Apps section</a></p>
+<p><a href="#ReinstallSection6">Reinstall section</a></p>
+<p><a href="#VRAppSection6">VR (Virtual Reality) app section</a></p>
+<p><a href="#GoogleSection6">Google apps section</a></p>
+<p><a href="#BrowserSection6">Browser section</a></p>
+<p><a href="#PreloadedAppsSection6">Pre-loaded apps section</a></p>
+<p><a href="#FoldersSection6">Desktop1 folders section</a></p>
+<p><a href="#DesktopSection6">Desktop gallery section (1 and 2)</a></p>
+<p><a href="#AllAppsCollection6">All apps (collection)</a></p>
+<p><a href="#AllAppsToBackup6">All apps to backup</a></p>
+<p><a href="#ManualAppDataBackup6">Manual app data backup</a></p>
+<p><a href="#GoogleAccountList6">Google account list</a></p>
+<p><a href="#ShortcutSection6">Shortcut section</a></p>
+<p><a href="#OtherDeviceInfo6">Other device info</a></p>
+</details>
+<li><HR></li>
+<li><p><a href="#PageVersionHistory">Page version history</a></p></li>
+<li><p><a href="#FileInfoBottom">File info</a></p></li>
+<li><HR></li>
+</ul>
+<div style="margin-left:15.1%;padding:1px 16px;height:1000px;">
+<title2>Seans Android VM Gallery data tool</title2>
+<HR> <!--<!--=======================================================================================================================================================================================================================!-->
+<H1>Phone data</H1>
+<img src="HTC_PHONE.png" alt="HTC_PHONE" width="256" height="256">
+<H2>HTC [BRAND]</H2>
+<div class="background">
+	<div class="transbox">
+		<H1>Index</H1>
+		<p><a href="#InternalChecklist1">Internal checklist</a></p>
+		<p><a href="#AppsSection1">Apps section</a></p>
+		<p><a href="#ReinstallSection1">Reinstall section</a></p>
+		<p><a href="#VRAppSection1">VR (Virtual Reality) app section</a></p>
+		<p><a href="#GoogleSection1">Google apps section</a></p>
+		<p><a href="#BrowserSection1">Browser section</a></p>
+		<p><a href="#PreloadedAppsSection1">Pre-loaded apps section</a></p>
+		<p><a href="#FoldersSection1">Desktop1 folders section</a></p>
+		<p><a href="#DesktopSection1">Desktop gallery section (1 and 2)</a></p>
+		<p><a href="#AllAppsCollection1">All apps (collection)</a></p>
+		<p><a href="#AllAppsToBackup1">All apps to backup</a></p>
+		<p><a href="#ManualAppDataBackup1">Manual app data backup</a></p>
+		<p><a href="#GoogleAccountList1">Google account list</a></p>
+		<p><a href="#ShortcutSection1">Shortcut section</a></p>
+		<p><a href="#OtherDeviceInfo1">Other device info</a></p>
+	</div>
+</div>
+<HR>
+<H1 id="internalChecklist1">Internal checklist</H1>
+<input type="checkbox">Get notification sound scheme<br>
+<HR>
+<H1 id="AppsSection1">Apps section</H1>
+<p>7 slot machine</p>
+<p>Jewels</p>
+<HR>
+<H1 id="ReinstallSection1">Reinstall section</H1>
+<p>7 slots machine</p>
+<p>Jewels</p>
+<HR>
+<H1 id="VRAppSection1">VR apps</H1>
+<p>This device did not have any VR apps nor was it capable of running them</p>
+<HR>
+<H1 id="GoogleSection1">Google section</H1>
+<p>
+</p>
+<HR>
+<H1 id="BrowserSection1">Browser section</H1>
+<p>Google Chrome</p>
+<HR>
+<H1 id="PreloadedAppsSection1">Pre-loaded apps</H1>
+<p>Data unavailable</p>
+<HR>
+<H1 id="FolderSection1">Folders</H1>
+<p>No folders were set up on this device
+<HR>
+<H1 id="DesktopSetup1">Desktop setup</H1>
+<p>Todo in a VM</p>
+<HR>
+<H1 id="AllAppsCollection1">All apps</H1>
+<HR>
+<details><summary>View in grid form</summary>
+<div class="grid-container">
+	<div class="grid-item"></div>
+</div>
+</details>
+<HR>
+<details><summary>View in list form</summary>
+<p>App.list</p>
+</details>
+<HR>
+<H1 id="AllAppsToBackup1">All apps to backup</H1>
+<p>No backup data (nothing to backup)</p>
+<HR>
+<H1 id="ManualAppDataBackup1">All apps to manually backup</H1>
+<p>No backup data (nothing to backup)</p>
+<HR>
+<H1 id="GoogleAccountList1">Google Account list</H1>
+<p>1 | vernmyrick5521@gmail.com</p>
+<HR>
+<H1 id="ShortcutSection1">Shortcut section</H1>
+<p>This device didn't have any shortcuts made</p>
+<HR>
+<H1 id="OtherDeviceInfo1">Other device info</H1>
+<H2>First OS: Android 1.5 (Cupcake)</H2>
+<H2>First (and final) upgrade: Android 1.6 (Donut)</H2>
+<H2>RAM: Less than 256 Megabytes</H2>
+<H2>Storage capacity: ? gigabytes (internal) ?? Gigabytes (external)</H2>
+<HR>
+<!-- 
+Divider
+!-->
+<HR>
+<img src="ICONS/S2Black1.jpg" alt="S2" width="256" height="256">
+<H1>Phone data</H1>
+<H2>Samsung Galaxy S2</H2>
+<div class="background">
+	<div class="transbox">
+		<H1>Index</H1>
+		<p><a href="#InternalChecklist2">Internal checklist</a></p>
+		<p><a href="#AppsSection2">Apps section</a></p>
+		<p><a href="#ReinstallSection2">Reinstall section</a></p>
+		<p><a href="#VRAppSection2">VR (Virtual Reality) app section</a></p>
+		<p><a href="#GoogleSection2">Google apps section</a></p>
+		<p><a href="#BrowserSection2">Browser section</a></p>
+		<p><a href="#PreloadedAppsSection2">Pre-loaded apps section</a></p>
+		<p><a href="#FoldersSection2">Desktop1 folders section</a></p>
+		<p><a href="#DesktopSection2">Desktop gallery section (1 and 2)</a></p>
+		<p><a href="#AllAppsCollection2">All apps (collection)</a></p>
+		<p><a href="#AllAppsToBackup2">All apps to backup</a></p>
+		<p><a href="#ManualAppDataBackup2">Manual app data backup</a></p>
+		<p><a href="#GoogleAccountList2">Google account list</a></p>
+		<p><a href="#PageVersionHistory2">Page version history</a></p>
+		<p><a href="#ShortcutSection2">Shortcut section</a></p>
+		<p><a href="#FileInfoBottom2">File info</a></p>
+		<p><a href="#OtherDeviceInfo2">Other device info</a></p>
+	</div>
+</div>
+<HR>
+<H1 id="internalChecklist2">Internal checklist</H1>
+<input type="checkbox">Get notification sound scheme<br>
+<HR>
+<H1 id="AppsSection2">Apps section</H1>
+<p>Clash of clans</p>
+<p>Boom beach</p>
+<p>Ninja chicken</p>
+<HR>
+<H1 id="ReinstallSection2">Reinstall section</H1>
+<p>Clash of clans</p>
+<p>Boom beach</p>
+<p>Ninja chicken</p>
+<p>Ninja turkey</p>
+<p>Clash Royale</p>
+<HR>
+<H1 id="VRAppSection2">VR apps</H1>
+<p>This device did not have any VR apps nor was it capable of running them</p>
+<HR>
+<H1 id="GoogleSection2">Google section</H1>
+<p>
+<HR>
+<H1 id="BrowserSection2">Browser section</H1>
+<p>Google Chrome</p>
+<HR>
+<H1 id="PreloadedAppsSection2">Pre-loaded apps</H1>
+<p>YouTube</p>
+<p>Messages</p>
+<p>Widgets</p>
+<p>Google search</p>
+<p>GMail</p>
+<p>Contacts</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<HR>
+<H1 id="FolderSection2">Folders</H1>
+<p>No folders were set up on this device</p>
+<HR>
+<H1 id="DesktopSetup2">Desktop setup</H1>
+<p>Todo in a VM</p>
+<HR>
+<H1 id="AllAppsCollection2">All apps</H1>
+<HR>
+<details><summary>View in grid form</summary>
+<div class="grid-container">
+	<div class="grid-item"></div>
+</div>
+</details>
+<HR>
+<details><summary>View in list form</summary>
+<p>App.list</p>
+</details>
+<HR>
+<H1 id="AllAppsToBackup2">All apps to backup</H1>
+<p>No backup data (nothing to backup)</p>
+<HR>
+<H1 id="ManualAppDataBackup2">All apps to manually backup</H1>
+<p>No backup data (nothing to backup)</p>
+<HR>
+<H1 id="GoogleAccountList2">Google Account list</H1>
+<p>1 | vernmyrick5521@gmail.com</p>
+<HR>
+<H1 id="ShortcutSection2">Shortcut section</H1>
+<p>This device didn't have any shortcuts made</p>
+<HR>
+<H1 id="OtherDeviceInfo2">Other device info</H1>
+<H2>First OS: Android 2.0 (Eclair)</H2>
+<H2>Second OS: Android 2.1 (Froyo)</H2>
+<H2>Third OS: Android 2.2 (Gingerbread)</H2>
+<H2>Fourth OS: Android 2.3 (Gingerbread)</H2>
+<H2>Fifth (and final) upgrade: Android 2.3.1 (Gingerbread)</H2>
+<H2>RAM: 256 Megabytes</H2>
+<H2>Storage capacity: 2 gigabytes (internal) 16 Gigabytes (external)</H2>
+<HR>
+<!-- 
+Divider
+!-->
+<img src="ICONS/SamsungGalaxyCorePrime1.jpg" alt="Samsung Galaxy Core Prime 1" width="256" height="256">
+<H1>Phone data
+<H2>Samsung Galaxy Core prime (1)</H2>
+<div class="background">
+	<div class="transbox">
+		<H1>Index</H1>
+		<p><a href="#InternalChecklist3">Internal checklist</a></p>
+		<p><a href="#AppsSection3">Apps section</a></p>
+		<p><a href="#ReinstallSection3">Reinstall section</a></p>
+		<p><a href="#VRAppSection3">VR (Virtual Reality) app section</a></p>
+		<p><a href="#GoogleSection3">Google apps section</a></p>
+		<p><a href="#BrowserSection3">Browser section</a></p>
+		<p><a href="#PreloadedAppsSection3">Pre-loaded apps section</a></p>
+		<p><a href="#FoldersSection3">Desktop1 folders section</a></p>
+		<p><a href="#DesktopSection3">Desktop gallery section (1 and 2)</a></p>
+		<p><a href="#AllAppsCollection3">All apps (collection)</a></p>
+		<p><a href="#AllAppsToBackup3">All apps to backup</a></p>
+		<p><a href="#ManualAppDataBackup3">Manual app data backup</a></p>
+		<p><a href="#GoogleAccountList3">Google account list</a></p>
+		<p><a href="#PageVersionHistory3">Page version history</a></p>
+		<p><a href="#ShortcutSection3">Shortcut section</a></p>
+		<p><a href="#FileInfoBottom3">File info</a></p>
+		<p><a href="#OtherDeviceInfo3">Other device info</a></p>
+	</div>
+</div>
+<HR>
+<H1 id="internalChecklist3">Internal checklist</H1>
+<p>Nothing to do internally</p>
+<HR>
+<H1 id="AppsSection3">Apps section</H1>
+<details><summary><p>View in grid form</p></summary>
+<div class="grid-container">
+	<div class="grid-item"><p>1 </p><img src="ClashRoyaleIcon" alt="CR_ICON" width="64" height="64"><p>Clash royale</p></div>
+</div>
+</details>
+<details><summary><p>View in list form</p></summary>
+<p>Clash royale</p>
+<p>Clash of clans</p>
+<p>Boom beach</p>
+<p>Hay day</p>
+<p>Five nights at Freddys</p>
+<p>Five nights at Freddys 2</p>
+<p>Five nights at Freddys 3</p>
+<p>Five nights at Freddys 4</p>
+<p>Minecraft Pocket Edition</p>
+<p>Ultimate notepad</p>
+<p>Music box</p>
+<p>Restaurant story</p>
+<p>Bakery story</p>
+<p>Pet shop story</p>
+<p>Fashion story</p>
+<p>Farm story</p>
+<p>AV screen recorder</p>
+<p>Mobizen</p>
+</details>
+<HR>
+<H1 id="ReinstallSection3">Reinstall section</H1>
+<p>
+</p>
+<HR>
+<H1 id="VRAppSection3">VR apps</H1>
+<p>This device did not have any VR apps nor was it capable of running them</p>
+<HR>
+<H1 id="GoogleSection3">Google section</H1>
+<p>
+</p>
+<HR>
+<H1 id="BrowserSection3">Browser section</H1>
+<p>Google Chrome</p>
+<HR>
+<H1 id="PreloadedAppsSection3">Pre-loaded apps</H1>
+<p>YouTube</p>
+<p>Google search</p>
+<p>GMail</p>
+<p>Message+</p>
+<p>Samsung messages</p>
+<HR>
+<H1 id="FolderSection3">Folders</H1>
+<p>No folders were set up on this device</p>
+<HR>
+<H1 id="DesktopSetup3">Desktop setup</H1>
+<p>Todo in a VM</p>
+<HR>
+<H1 id="AllAppsCollection3">All apps</H1>
+<HR>
+<details><summary>View in grid form</summary>
+<div class="grid-container">
+	<div class="grid-item"></div>
+</div>
+</details>
+<HR>
+<details><summary>View in list form</summary>
+<p>App.list</p>
+</details>
+<HR>
+<H1 id="AllAppsToBackup3">All apps to backup</H1>
+<p>No backup data (nothing to backup)</p>
+<HR>
+<H1 id="ManualAppDataBackup3">All apps to manually backup</H1>
+<p>No backup data (nothing to backup)</p>
+<HR>
+<H1 id="GoogleAccountList3">Google Account list</H1>
+<p>1 | vernmyrick5521@gmail.com</p>
+<p>2 | theironmelonmc4384141@gmail.com</p>
+<p>3 | seanwallawallaofficial@gmail.com</p>
+<p>4 | Techlaration@gmail.com</p>
+<HR>
+<H1 id="ShortcutSection3">Shortcut section</H1>
+<p>This device didn't have any shortcuts made</p>
+<HR>
+<H1 id="OtherDeviceInfo3">Other device info</H1>
+<H2>First OS: Android 6.0 (Marshmellow)</H2>
+<H2>First (and final) upgrade: Android 6.1 (Marshmellow)</H2>
+<H2>RAM: 1 Gigabyte</H2>
+<H2>Storage capacity: 8 gigabytes (internal) 64 Gigabytes (external)</H2>
+<HR>
+<!-- 
+Divider
+!-->
+<img src="ICONS/SamsungGalaxyCorePrime1.jpg" alt="Samsung Galaxy Core Prime 2" width="256" height="256">
+<H1>Phone data
+<H2>Samsung Galaxy Core prime (2)</H2>
+<div class="background">
+	<div class="transbox">
+		<H1>Index</H1>
+		<p><a href="#InternalChecklist4">Internal checklist</a></p>
+		<p><a href="#AppsSection4">Apps section</a></p>
+		<p><a href="#ReinstallSection4">Reinstall section</a></p>
+		<p><a href="#VRAppSection4">VR (Virtual Reality) app section</a></p>
+		<p><a href="#GoogleSection4">Google apps section</a></p>
+		<p><a href="#BrowserSection4">Browser section</a></p>
+		<p><a href="#PreloadedAppsSection4">Pre-loaded apps section</a></p>
+		<p><a href="#FoldersSection4">Desktop1 folders section</a></p>
+		<p><a href="#DesktopSection4">Desktop gallery section (1 and 2)</a></p>
+		<p><a href="#AllAppsCollection4">All apps (collection)</a></p>
+		<p><a href="#AllAppsToBackup4">All apps to backup</a></p>
+		<p><a href="#ManualAppDataBackup4">Manual app data backup</a></p>
+		<p><a href="#GoogleAccountList4">Google account list</a></p>
+		<p><a href="#PageVersionHistory4">Page version history</a></p>
+		<p><a href="#ShortcutSection4">Shortcut section</a></p>
+		<p><a href="#FileInfoBottom4">File info</a></p>
+		<p><a href="#OtherDeviceInfo4">Other device info</a></p>
+	</div>
+</div>
+<H1 id="internalChecklist4">Internal checklist</H1>
+<p>Nothing to do internally</p>
+<HR>
+<H1 id="AppsSection4">Apps section</H1>
+<p>Clash royale</p>
+<p>Clash of clans</p>
+<p>Boom beach</p>
+<p>Hay day</p>
+<p>Five nights at Freddys</p>
+<p>Five nights at Freddys 2</p>
+<p>Five nights at Freddys 3</p>
+<p>Five nights at Freddys 4</p>
+<p>Minecraft Pocket Edition</p>
+<p>Ultimate notepad</p>
+<p>Music box</p>
+<p>Crossy road</p>
+<p>AV screen recorder</p>
+<p>Mobizen</p>
+<HR>
+<H1 id="ReinstallSection4">Reinstall section</H1>
+<HR>
+<H1 id="VRAppSection4">VR apps</H1>
+<p>This device did not have any VR apps nor was it capable of running them</p>
+<HR>
+<H1 id="GoogleSection4">Google section</H1>
+<p>
+</p>
+<HR>
+<H1 id="BrowserSection4">Browser section</H1>
+<p>Google Chrome</p>
+<HR>
+<H1 id="PreloadedAppsSection4">Pre-loaded apps</H1>
+<p>Data unavailable</p>
+<HR>
+<H1 id="FolderSection4">Folders</H1>
+<p>No folders were set up on this device</p>
+<HR>
+<H1 id="DesktopSetup3">Desktop setup</H1>
+<p>Todo in a VM</p>
+<HR>
+<H1 id="AllAppsCollection4">All apps</H1>
+<HR>
+<details><summary>View in grid form</summary>
+<div class="grid-container">
+	<div class="grid-item"></div>
+</div>
+</details>
+<HR>
+<details><summary>View in list form</summary>
+<p>App.list</p>
+</details>
+<HR>
+<H1 id="AllAppsToBackup4">All apps to backup</H1>
+<p>No backup data (nothing to backup)</p>
+<HR>
+<H1 id="ManualAppDataBackup4">All apps to manually backup</H1>
+<p>No backup data (nothing to backup)</p>
+<HR>
+<H1 id="GoogleAccountList4">Google Account list</H1>
+<p>1 | vernmyrick5521@gmail.com</p>
+<p>2 | theironmelonmc4384141@gmail.com</p>
+<p>3 | seanwallawallaofficial@gmail.com</p>
+<p>4 | Techlaration@gmail.com</p>
+<HR>
+<H1 id="ShortcutSection4">Shortcut section</H1>
+<p>This device didn't have any shortcuts made</p>
+<HR>
+<H1 id="OtherDeviceInfo3">Other device info</H1>
+<H2>First (and final) OS: Android 6.1 (Marshmellow)</H2>
+<H2>RAM: 1 Gigabyte</H2>
+<H2>Storage capacity: 8 gigabytes (internal) 64 Gigabytes (external)</H2>
+<HR>
+<!-- 
+Divider
+!-->
+<HR>
+<img src="ICONS/S7EDGE1.jpg" alt="Samsung Galaxy S7 edge" width="256" height="256">
+<H1>Phone data</H1>
+<H2>Samsung Galaxy S7 Edge to [NEW_DEVICE]</H2>
+<p>Pictures also taken for app locations</p>
+<HR>
+<div class="background">
+	<div class="transbox">
+		<H1>Index</H1>
+		<p><a href="#InternalChecklist5">Internal checklist</a></p>
+		<p><a href="#AppsSection5">Apps section</a></p>
+		<p><a href="#ReinstallSection5">Reinstall section</a></p>
+		<p><a href="#VRAppSection5">VR (Virtual Reality) app section</a></p>
+		<p><a href="#GoogleSection5">Google apps section</a></p>
+		<p><a href="#BrowserSection5">Browser section</a></p>
+		<p><a href="#PreloadedAppsSection5">Pre-loaded apps section</a></p>
+		<p><a href="#FoldersSection5">Desktop1 folders section</a></p>
+		<p><a href="#DesktopSection5">Desktop gallery section (1 and 2)</a></p>
+		<p><a href="#AllAppsCollection5">All apps (collection)</a></p>
+		<p><a href="#AllAppsToBackup5">All apps to backup</a></p>
+		<p><a href="#ManualAppDataBackup5">Manual app data backup</a></p>
+		<p><a href="#GoogleAccountList5">Google account list</a></p>
+		<p><a href="#PageVersionHistory5">Page version history</a></p>
+		<p><a href="#ShortcutSection5">Shortcut section</a></p>
+		<p><a href="#FileInfoBottom5">File info</a></p>
+		<p><a href="#OtherDeviceInfo5">Other device info</a></p>
+	</div>
+</div>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="InternalChecklist5">Internal (highest priority)</H1>
+<!-- Checklist 1 !-->
+<input type="checkbox">Do an SMS backup (Use SMS backup & restore, backup messages, and phone calls, upload the XML data)<br>
+<input type="checkbox">Backup all photos (Easy, just back it up via Samsung files. This is done on a daily basis as well)<br>
+<input type="checkbox">Backup all videos (Easy, just back it up via Samsung files. This is done on a bi-daily basis as well)<br>
+<input type="checkbox">Backup all audio (Easy, just back it up via Samsung files. This is done rarely due to the fact that I don't put new audio on my phone frequently)<br>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="AppsSection5">Apps (highest priority)</H1>
+<p>Get info on Google accounts</p>
+<p>Ultimate notepad</p>
+<p><b>Backup storm8 games</b></p>
+<p><u>List</u></p>
+<input type="checkbox">>restaurant story<br>
+<input type="checkbox">> bakery story<br>
+<input type="checkbox">> pet shop story<br>
+<input type="checkbox">> fashion story<br>
+<input type="checkbox">> farm story<br>
+<p>Backup PVZ2 (Plants vs. Zombies 2)</p>
+<p>Get Tiny Tower email backup confirmed</p>
+<p><b>Move Supercell games over (log into them again)</b></p>
+<p><u>Game list:</u></p>
+<input type="checkbox">> Clash of Clans<br>
+<input type="checkbox">> Boom Beach<br>
+<input type="checkbox">> Hay Day<br>
+<input type="checkbox">> Clash Royale<br>
+<p>Backup hill climb racing</p>
+<p><b>Backup sonic games</b></p>
+<p><u>Game list</u></p>
+<input type="checkbox">> Sonic 1<br>
+<input type="checkbox">> Sonic 2<br>
+<input type="checkbox">> Sonic CD<br>
+<p>Backup adventure capitalist</p>
+<p>Backup merge planes</p>
+<p>Backup Idle Miner Tycoon</p>
+<p>Backup MinecraftPE</p>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="ReinstallSection5">Reinstall (no internal data app)</H1>
+<p>2048</p>
+<p>2048 no ads</p>
+<p>Banner bank app</p>
+<p>Growtopia</p>
+<p>Twitter</p>
+<p>VLC</p>
+<p>Clash Royale card creator</p>
+<p>30 FPS VS 60 FPS</p>
+<p>Nothing.</p>
+<p>Bandcamp</p>
+<p>Twitter</p>
+<p>Tumblr</p>
+<p>Go90</p>
+<p>Fing</p>
+<p>LanDroid</p>
+<p>Zedge</p>
+<p>Yelp</p>
+<p>Instagram</p>
+<p>Facebook</p>
+<p>Thingiverse</p>
+<p>Minesweeper</p>
+<p>Dank meme soundboard</p>
+<p>Windows XP soundboard</p>
+<p>Flex tape soundboard</p>
+<p>iMegacam</p>
+<p>ZOSIview</p>
+<p>Lorex Mobile Eco</p>
+<p>Comic screen</p>
+<p>ASCIICam</p>
+<p>Mobizen</p>
+<p>Sensor box</p>
+<p>Speedtest</p>
+<p>Hulu</p>
+<p>Vimeo</p>
+<p>Discord</p>
+<p>Horizon VM</p>
+<p>DOSBox</p>
+<p>Teamviewer</p>
+<p>Voice changer (with effects)</p>
+<p>See if Google+ can still be installed</p>
+<p>FitBit</p>
+<p>Cleanmaster</p>
+<p>Tello</p>
+<p>WinXP Plus</p>
+<p>Periscope</p>
+<p>Disk usage</p>
+<p>Reddit</p>
+<p>Google Hangouts</p>
+<p>Ditty</p>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="VRAppSection5">VR apps</H1>
+<p>Oculus</p>
+<p>VR cave flythrough</p>
+<p>VR Freeflight</p>
+<p>Rilix rollercoaster</p>
+<p>Escape your fears</p>
+<p>(Setup Oculus for offline VM usage)</p>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="GoogleSection5">Google</H1>
+<p>Google play books</p>
+<p>YouTube (accounts)</p>
+<p>Google Drive</p>
+<p>GMail</p>
+<p>Adsense</p>
+<p>YT Creator studio</p>
+<p>ADV Screen recorder</p>
+<p>Magic light BLE</p>
+<p>Spectrum TV</p>
+<p>XBOX</p>
+<p>SMS Backup & Restore</p>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="BrowserSection5">Browsers</H1>
+<p>DuckDuckGo</p>
+<p>Mozilla Firefox</p>
+<p>Google Chrome (comes with device unfortunately)</p>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="PreloadedAppsSection5">Preloaded</H1>
+<p>Amazon</p>
+<p>Amazon kindle</p>
+<p>Google search</p>
+<p>Gmail</p>
+<p>Google Maps</p>
+<p>Google Drive</p>
+<p>Play movies & TV</p>
+<p>Google Hangouts</p>
+<p>Google photos</p>
+<p>Google pay</p>
+<p>Samsung email</p>
+<p>Samsung files</p>
+<p>Samsung health</p>
+<p>S voice</p>
+<p>Verizon call filter</p>
+<p>Verizon cloud</p>
+<p>Verizon message+</p>
+<p>My verizon</p>
+<p>NFL</p>
+<p>Slacker radio</p>
+<p>VZ navigator</p>
+<p>Calculator</p>
+<p>Calendar</p>
+<p>Camera</p>
+<p>Clock</p>
+<p>Gallery</p>
+<p>Help</p>
+<p>Memo</p>
+<p>Messages</p>
+<p>Google play music</p>
+<p>Google play store</p>
+<p>Samsung gear</p>
+<p>Contacts</p>
+<p>Settings</p>
+<p>Voicemail</p>
+<p>IMDB</p>
+<p>Google Play games</p>
+<p>Phone</p>
+<p>Play books</p>
+<p>Google Chrome</p>
+<p>Amazon shopping</p>
+<p>Prime video</p>
+<p>Game recorder</p>
+<p>Cardboard</p>
+<p>IR remote</p>
+<p>Netflix</p>
+<p>Primer</p>
+<p>Security and privacy</p>
+<p>Fire tv</p>
+<p>Google translate</p>
+<p>Google Earth</p>
+<p>Android pay</p>
+<p>Galaxy themes</p>
+<p>Finder</p>
+<p>Galaxy store</p>
+<p>Smartthings</p>
+<p>Google Newsstand</p>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="FoldersSection5">Folders</H1>
+<H2>These folders were preloaded with the phone. Minor modifications were made</H2>
+<HR><!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~!-->
+<details><summary><H3>AmazonJungle (Original directory name: Amazon)</H3></summary>
+<p><b>Folder:</b></p>
+<p>Amazon</p>
+<p>Amazon kindle</p>
+</details>
+<HR><!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~!-->
+<details><summary><H3>W3B (Original directory name: Google)</H3></summary>
+<p><b>>Folder:</b></p>
+<p>Gmail</p>
+<p>Google Maps</p>
+<p>Google Drive</p>
+<p>Reddit</p>
+<p>Play movies & TV</p>
+<p>Google Hangouts</p>
+<p>Google photos</p>
+<p>Google pay</p>
+</details>
+<HR><!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~!-->
+<details><summary><H3>Sam-sang (Original directory name: Samsung)
+<p><b>>Folder:</b></p>
+<p>Samsung email</p>
+<p>Samsung files</p>
+<p>Samsung health</p>
+<p>S voice</p>
+</details>
+<HR><!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~!-->
+<details><summary><H3>Verizoon (Original directory name: Verizon)
+<p><b>>Folder:</b></p>
+<p>Verizon call filter</p>
+<p>Verizon cloud</p>
+<p>Verizon message+</p>
+<p>My verizon</p>
+<p>NFL</p>
+<p>Slacker radio</p>
+<p>VZ navigator</p>
+</details>
+<HR><!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~!-->
+<H2>End of pre-loaded folder file section</H2>
+<HR>
+<H3>Pictures taken to show where everything is<H3>
+<HR>
+<H1 id="DesktopSetup">Desktop setup</H1>
+<H2>DE1 (Pages)</H2>
+<img src="DE1/Screenshot_20191024-140151_Samsung Experience Home.jpg" alt="Desktop1Picture1" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<img src="DE1/Screenshot_20191024-140158_Samsung Experience Home.jpg" alt="Desktop1Picture2" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<img src="DE1/Screenshot_20191024-140205_Samsung Experience Home.jpg" alt="Desktop1Picture3" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<img src="DE1/Screenshot_20191024-140211_Samsung Experience Home.jpg" alt="Desktop1Picture4" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<img src="DE1/Screenshot_20191024-140217_Samsung Experience Home.jpg" alt="Desktop1Picture5" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<img src="DE1/Screenshot_20191024-140222_Samsung Experience Home.jpg" alt="Desktop1Picture6" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<img src="DE1/Screenshot_20191024-140228_Samsung Experience Home.jpg" alt="Desktop1Picture7" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<H2>DE1 (Folders)</H2>
+<img src="DE1/Screenshot_20191024-140232_Samsung Experience Home.jpg" alt="Desktop1Picture8" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<img src="DE1/Screenshot_20191024-140236_Samsung Experience Home.jpg" alt="Desktop1Picture9" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<img src="DE1/Screenshot_20191024-140240_Samsung Experience Home.jpg" alt="Desktop1Picture10" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<img src="DE1/Screenshot_20191024-140244_Samsung Experience Home.jpg" alt="Desktop1Picture11" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<H2>DE2 (Pages)</H2>
+<img src="DE2/Screenshot_20191024-140533_Samsung Experience Home.jpg" alt="Desktop2Picture1" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<img src="DE2/Screenshot_20191024-140539_Samsung Experience Home.jpg" alt="Desktop2Picture2" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<img src="DE2/Screenshot_20191024-140548_Samsung Experience Home.jpg" alt="Desktop2Picture4" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<img src="DE2/Screenshot_20191024-140552_Samsung Experience Home.jpg" alt="Desktop2Picture5" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<img src="DE2/Screenshot_20191024-140556_Samsung Experience Home.jpg" alt="Desktop2Picture6" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<H2>DE2 (Folders</H2>
+<img src="DE2/Screenshot_20191024-140543_Samsung Experience Home.jpg" alt="Desktop2Picture3" width="120" height="213"> <!-- Reduces from 1440x2160 !-->
+<H2>End of section</H2>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="AllAppsCollection5">All apps</H1>
+<HR>
+<details><summary>Grid view</summary>
+<div class="grid-container"> <!-- Work on fixing this grid (it should have 4 icons per row and it should be more even !-->
+	<div class="grid-item"><p>1</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="UltimateNotepadIcon" width="64" height="64"><p>Ultimate Notepad</p></div>
+	<div class="grid-item"><p>2</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="RestrauntStoryIcon" width="64" height="64"><p>Restraunt story</p></div>
+	<div class="grid-item"><p>3</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="BakeryStoryIcon" width="64" height="64"><p>Bakery story</p></div>
+	<div class="grid-item"><p>4</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="PetShopStoryIcon" width="64" height="64"><p>Pet Shop Story</p></div>
+	<div class="grid-item"><p>5</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="FashionStoryIcon" width="64" height="64"><p>Fashion Story</p></div>
+	<div class="grid-item"><p>6</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="FarmStoryIcon" width="64" height="64"><p>Farm Story</p></div>
+	<div class="grid-item"><p>7</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="PlantsVSZombies2Icon" width="64" height="64"><p>Plants VS. Zombies 2</p></div>
+	<div class="grid-item"><p>8</p><img src="ICONS/Tiny_Tower_icon.jpg" alt="TinyTowerIcon" width="64" height="64"><p>Tiny Tower</p></div>
+	<div class="grid-item"><p>9</p><img src="ICONS/ClashOfClansIcon.png" alt="ClashOfClansIcon" width="64" height="64"><p>Clash of Clans</p></div>
+	<div class="grid-item"><p>10</p><img src="ICONS/BoomBeachIcon.jpg" alt="BoomBeachIcon" width="64" height="64"><p>Boom Beach</p></div>
+	<div class="grid-item"><p>11</p><img src="ICONS/HayDayIcon.jpg" alt="HayDayIcon" width="64" height="64"><p>Hay Day</p></div>
+	<div class="grid-item"><p>12</p><img src="ICONS/ClashRoyaleIcon.jpg" alt="ClashRoyaleIcon" width="64" height="64"><p>Clash Royale</p></div>
+	<div class="grid-item"><p>13</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="HillClimbRacingIcon" width="64" height="64"><p>Hill Climb Racing</p></div>
+	<div class="grid-item"><p>14</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="Sonic1Icon" width="64" height="64"><p>Sonic the Hedgehog 1 Mobile</p></div>
+	<div class="grid-item"><p>15</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="Sonic2Icon" width="64" height="64"><p>Sonic the Hedgehog 2 Mobile</p></div>
+	<div class="grid-item"><p>16</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SonicCDIcon" width="64" height="64"><p>Sonic the Hedgehog CD Mobile</p></div>
+	<div class="grid-item"><p>17</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="AdcapIcon" width="64" height="64"><p>Adventure Capitalist</p></div>
+	<div class="grid-item"><p>18</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="MergePlanesIcon" width="64" height="64"><p>Merge planes</p></div>
+	<div class="grid-item"><p>19</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="IdleMinerTycoonIcon" width="64" height="64"><p>Idle Miner Tycoon</p></div>
+	<div class="grid-item"><p>20</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="MinecraftPocketEditionIcon" width="64" height="64"><p>Minecraft Pocket Edition</p></div>
+	<div class="grid-item"><p>21</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="2048Icon" width="64" height="64"><p>2048</p></div>
+	<div class="grid-item"><p>22</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="2048NoAdsIcon" width="64" height="64"><p>2048 (no ads)</p></div>
+	<div class="grid-item"><p>23</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="BannerBankMobileIcon" width="64" height="64"><p>Banner Bank</p></div>
+	<div class="grid-item"><p>24</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GrowtopiaIcon" width="64" height="64"><p>Growtopia</p></div>
+	<div class="grid-item"><p>25</p><img src="ICONS/TwitterIcon.jpg" alt="TwitterIcon" width="64" height="64"><p>Twitter</p></div>
+	<div class="grid-item"><p>26</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="VLCMediaPlayerIcon" width="64" height="64"><p>VLC Media Player</p></div>
+	<div class="grid-item"><p>27</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="ClashRoyaleCardCreatorIcon" width="64" height="64"><p>Clash Royale Card Creator</p></div>
+	<div class="grid-item"><p>28</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="30FPS_Vs_60FPSIcon" width="64" height="64"><p>30 FPS vs 60 FPS</p></div>
+	<div class="grid-item"><p>29</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="NothingIcon" width="64" height="64"><p>Nothing.</p></div>
+	<div class="grid-item"><p>30</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="BandcampIcon" width="64" height="64"><p>Bandcamp</p></div>
+	<div class="grid-item"><p>31</p><img src="ICONS/TumblrIcon.jpg" alt="TumblrIcon" width="64" height="64"><p>Tumblr</p></div>
+	<div class="grid-item"><p>32</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="Go90Icon" width="64" height="64"><p>Go90</p></div>
+	<div class="grid-item"><p>33</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="FingIcon" width="64" height="64"><p>Fing</p></div>
+	<div class="grid-item"><p>34</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="LanDroidIcon" width="64" height="64"><p>LanDroid</p></div>
+	<div class="grid-item"><p>35</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="ZedgeIcon" width="64" height="64"><p>Zedge</p></div>
+	<div class="grid-item"><p>36</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="YelpIcon" width="64" height="64"><p>Yelp</p></div>
+	<div class="grid-item"><p>37</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="InstagramIcon" width="64" height="64"><p>Instagram</p></div>
+	<div class="grid-item"><p>38</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="FacebookIcon" width="64" height="64"><p>Facebook</p></div>
+	<div class="grid-item"><p>39</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="ThingiverseIcon" width="64" height="64"><p>Thingiverse</p></div>
+	<div class="grid-item"><p>40</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="MinesweeperIcon" width="64" height="64"><p>Minesweeper</p></div>
+	<div class="grid-item"><p>41</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="DankMemeSoundboardIcon" width="64" height="64"><p>Dank Meme Soundboard</p></div>
+	<div class="grid-item"><p>42</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="WindowsXPSoundboardIcon" width="64" height="64"><p>Windows XP Soundboard</p></div>
+	<div class="grid-item"><p>43</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="FlexTapeSoundboardIcon" width="64" height="64"><p>Flex tape soundboard</p></div>
+	<div class="grid-item"><p>44</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="iMegaCamIcon" width="64" height="64"><p>iMegaCam</p></div>
+	<div class="grid-item"><p>45</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="ZosiViewIcon" width="64" height="64"><p>Zosiview</p></div>
+	<div class="grid-item"><p>46</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="LorexMobileEcoIcon" width="64" height="64"><p>Lorex Mobile Eco</p></div>
+	<div class="grid-item"><p>47</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="ComicScreenIcon" width="64" height="64"><p>Comic Screen</p></div>
+	<div class="grid-item"><p>48</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="ASCIICamIcon" width="64" height="64"><p>ASCIICam</p></div>
+	<div class="grid-item"><p>49</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="MobizenIcon" width="64" height="64"><p>Mobizen</p></div>
+	<div class="grid-item"><p>50</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SensorBoxForAndroidIcon" width="64" height="64"><p>Sensor box for Android</p></div>
+	<div class="grid-item"><p>51</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SpeedTestIcon" width="64" height="64"><p>Speedtest</p></div>
+	<div class="grid-item"><p>52</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="HuluIcon" width="64" height="64"><p>Hulu</p></div>
+	<div class="grid-item"><p>53</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="VimeoIcon" width="64" height="64"><p>Vimeo</p></div>
+	<div class="grid-item"><p>54</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="DiscordIcon" width="64" height="64"><p>Discord</p></div>
+	<div class="grid-item"><p>55</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="HorizonVMIcon" width="64" height="64"><p>HorizonVM</p></div>
+	<div class="grid-item"><p>56</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="DOSBoxIcon" width="64" height="64"><p>DOSBox</p></div>
+	<div class="grid-item"><p>57</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="TeamViewerIcon" width="64" height="64"><p>TeamViewer</p></div>
+	<div class="grid-item"><p>58</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="VoiceChangerWithEffectsIcon" width="64" height="64"><p>Voice changer (with effects)</p></div>
+	<div class="grid-item"><p>59</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GooglePlusIcon" width="64" height="64"><p>Google+</p></div>
+	<div class="grid-item"><p>60</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="FitBitIcon" width="64" height="64"><p>FitBit</p></div>
+	<div class="grid-item"><p>61</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="CleanmasterIcon" width="64" height="64"><p>Cleanmaster</p></div>
+	<div class="grid-item"><p>62</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="TelloIcon" width="64" height="64"><p>Tello</p></div>
+	<div class="grid-item"><p>63</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="WindowsXPPlusIcon" width="64" height="64"><p>WindowsXP plus</p></div>
+	<div class="grid-item"><p>64</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="PeriscopeIcon" width="64" height="64"><p>Periscope</p></div>
+	<div class="grid-item"><p>65</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="DiskUsageIcon" width="64" height="64"><p>Disk usage</p></div>
+	<div class="grid-item"><p>66</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="RedditIcon" width="64" height="64"><p>Reddit</p></div>
+	<div class="grid-item"><p>67</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="OculusIcon" width="64" height="64"><p>Oculus</p></div>
+	<div class="grid-item"><p>68</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="VRCaveFlythroughIcon" width="64" height="64"><p>VR Cave flythrough</p></div>
+	<div class="grid-item"><p>69</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="VRFreeflightIcon" width="64" height="64"><p>VR Freeflight</p></div>
+	<div class="grid-item"><p>70</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="RilixRollercoasterIcon" width="64" height="64"><p>Rilix rollercoaster</p></div>
+	<div class="grid-item"><p>71</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="EscapeYourFearsIcon" width="64" height="64"><p>Escape Your Fears</p></div>
+	<div class="grid-item"><p>72</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="AdsenseIcon" width="64" height="64"><p>Adsense</p></div>
+	<div class="grid-item"><p>73</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="YouTubeCreatorStudioIcon" width="64" height="64"><p>YouTube creator studio</p></div>
+	<div class="grid-item"><p>74</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="ADVScreenRecorderIcon" width="64" height="64"><p>ADV Screen recorder</p></div>
+	<div class="grid-item"><p>75</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="MagicLightBLEIcon" width="64" height="64"><p>Magic Light BLE</p></div>
+	<div class="grid-item"><p>76</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SpectrumTVIcon" width="64" height="64"><p>Spectrum TV</p></div>
+	<div class="grid-item"><p>77</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="XBOXIcon" width="64" height="64"><p>XBOX</p></div>
+	<div class="grid-item"><p>78</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="DuckDucGoBrowserIcon" width="64" height="64"><p>Duck Duck Go</p></div>
+	<div class="grid-item"><p>79</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="MozillaFirefoxIcon" width="64" height="64"><p>Mozilla Firefox</p></div>
+	<div class="grid-item"><p>80</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="AmazonIcon" width="64" height="64"><p>Amazon</p></div>
+	<div class="grid-item"><p>81</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="AmazonKindleIcon" width="64" height="64"><p>Amazon Kindle</p></div>
+	<div class="grid-item"><p>82</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GoogleIcon" width="64" height="64"><p>Google Search</p></div>
+	<div class="grid-item"><p>83</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GMailIcon" width="64" height="64"><p>GMail</p></div>
+	<div class="grid-item"><p>84</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GoogleMapsIcon" width="64" height="64"><p>Google Maps</p></div>
+	<div class="grid-item"><p>85</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GoogleDriveIcon" width="64" height="64"><p>Google Drive</p></div>
+	<div class="grid-item"><p>86</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GooglePlayMoviesAndTVIcon" width="64" height="64"><p>Google Play movies & TV</p></div>
+	<div class="grid-item"><p>87</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GoogleHangoutsIcon" width="64" height="64"><p>Google Hangouts</p></div>
+	<div class="grid-item"><p>88</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GooglePhotosIcon" width="64" height="64"><p>Google Photos</p></div>
+	<div class="grid-item"><p>89</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GooglePayIcon" width="64" height="64"><p>Google pay</p></div>
+	<div class="grid-item"><p>90</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SamsungEmailsIcon" width="64" height="64"><p>Samsung Email</p></div>
+	<div class="grid-item"><p>91</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SamsungFilesIcon" width="64" height="64"><p>Samsung Files</p></div>
+	<div class="grid-item"><p>92</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SamsungHealthIcon" width="64" height="64"><p>Samsung Health</p></div>
+	<div class="grid-item"><p>93</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SVoiceIcon" width="64" height="64"><p>S Voice</p></div>
+	<div class="grid-item"><p>94</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="VerizonCallFilterIcon" width="64" height="64"><p>Verizon Call filter</p></div>
+	<div class="grid-item"><p>95</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="VerizonCloudIcon" width="64" height="64"><p>Verizon Cloud</p></div>
+	<div class="grid-item"><p>96</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="VerizonMessagePlusIcon" width="64" height="64"><p>Verizon message+</p></div>
+	<div class="grid-item"><p>97</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="MyVerizonIcon" width="64" height="64"><p>My verizon</p></div>
+	<div class="grid-item"><p>98</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="NFLIcon" width="64" height="64"><p>NFL</p></div>
+	<div class="grid-item"><p>99</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SlackerRadioIcon" width="64" height="64"><p>Slacker radio</p></div>
+	<div class="grid-item"><p>100</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="VZNavigatorIcon" width="64" height="64"><p>VZ Navigator</p></div>
+	<div class="grid-item"><p>101</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="CalculatorIcon" width="64" height="64"><p>Calculator</p></div>
+	<div class="grid-item"><p>102</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="CalendarIcon" width="64" height="64"><p>Calendar</p></div>
+	<div class="grid-item"><p>103</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="CameraIcon" width="64" height="64"><p>Camera</p></div>
+	<div class="grid-item"><p>104</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="ClockIcon" width="64" height="64"><p>Clock</p></div>
+	<div class="grid-item"><p>105</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SasmsungGallerIcon" width="64" height="64"><p>Samsung gallery</p></div>
+	<div class="grid-item"><p>106</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SamsungHelpIcon" width="64" height="64"><p>Samsung Help</p></div>
+	<div class="grid-item"><p>107</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="MemoIcon" width="64" height="64"><p>Memo</p></div>
+	<div class="grid-item"><p>108</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SamsungMessagesIcon" width="64" height="64"><p>Samsung messages</p></div>
+	<div class="grid-item"><p>109</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GooglePlayMusicIcon" width="64" height="64"><p>Google play music</p></div>
+	<div class="grid-item"><p>110</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GooglePlayStoreIcon" width="64" height="64"><p>Google Play Store</p></div>
+	<div class="grid-item"><p>111</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SamsungGearIcon" width="64" height="64"><p>Samsung gear</p></div>
+	<div class="grid-item"><p>112</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SamsungContactsIcon" width="64" height="64"><p>Samsung contacts</p></div>
+	<div class="grid-item"><p>113</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SettingsIcon" width="64" height="64"><p>Settings</p></div>
+	<div class="grid-item"><p>114</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="VoicemailIcon" width="64" height="64"><p>Voicemail</p></div>
+	<div class="grid-item"><p>115</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="IMDBIcon" width="64" height="64"><p>IMDB</p></div>
+	<div class="grid-item"><p>116</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GooglePlayGamesIcon" width="64" height="64"><p>Google Play Games</p></div>
+	<div class="grid-item"><p>117</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="PhoneIcon" width="64" height="64"><p>Phone</p></div>
+	<div class="grid-item"><p>118</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GooglePlayBooksIcon" width="64" height="64"><p>Google Play books</p></div>
+	<div class="grid-item"><p>119</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GoogleChromeIcon" width="64" height="64"><p>Google Chrome</p></div>
+	<div class="grid-item"><p>120</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="AmazonShoppingIcon" width="64" height="64"><p>Amazon Shopping</p></div>
+	<div class="grid-item"><p>121</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="PrimeVideoIcon" width="64" height="64"><p>Prime video</p></div>
+	<div class="grid-item"><p>122</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GameScreenRecorderIcon" width="64" height="64"><p>Game screen recorder</p></div>
+	<div class="grid-item"><p>123</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GoogleCardboardIcon" width="64" height="64"><p>Google cardboard</p></div>
+	<div class="grid-item"><p>124</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="IRRemoteIcon" width="64" height="64"><p>IR Remote</p></div>
+	<div class="grid-item"><p>125</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="NetflixIcon" width="64" height="64"><p>Netflix</p></div>
+	<div class="grid-item"><p>126</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="PrimerIcon" width="64" height="64"><p>Primer</p></div>
+	<div class="grid-item"><p>127</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SecurityAndPrivacyIcon" width="64" height="64"><p>Security and privacy</p></div>
+	<div class="grid-item"><p>128</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="AmazonFireTVIcon" width="64" height="64"><p>Amazon Fire TV</p></div>
+	<div class="grid-item"><p>129</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GoogleTranslateIcon" width="64" height="64"><p>Google Translate</p></div>
+	<div class="grid-item"><p>130</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GoogleEarthIcon" width="64" height="64"><p>Google Earth</p></div>
+	<div class="grid-item"><p>131</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="AndroidPayIcon" width="64" height="64"><p>Android pay</p></div>
+	<div class="grid-item"><p>132</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GalaxyThemesIcon" width="64" height="64"><p>Galaxy themes</p></div>
+	<div class="grid-item"><p>133</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="FinderIcon" width="64" height="64"><p>Finder</p></div>
+	<div class="grid-item"><p>134</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GalaxyStoreIcon" width="64" height="64"><p>Galaxy store</p></div>
+	<div class="grid-item"><p>135</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="SmarthingsIcon" width="64" height="64"><p>Smartthings</p></div>
+	<div class="grid-item"><p>136</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="GoogleNewsstandIcon" width="64" height="64"><p>Google Newsstand</p></div>
+	<div class="grid-item"><p>137</p><img src="ICONS/AndroidDefaultIcon(Placeholder).png" alt="DittyIcon" width="64" height="64"><p>Ditty</p></div>
+</div>
+</details>
+<HR>
+<details><summary>List view</summary>
+<p>Ultimate notepad</p>
+<p>Restaurant story</p>
+<p>bakery story</p>
+<p>pet shop story</p>
+<p>fashion story</p>
+<p>farm story</p>
+<p>Plants vs. Zombies 2</p>
+<p>Tiny Tower</p>
+<p>Clash of Clans</p>
+<p>Boom Beach</p>
+<p>Hay Day</p>
+<p>Clash Royale</p>
+<p>hill climb racing</p>
+<p>Sonic 1</p>
+<p>Sonic 2</p>
+<p>Sonic CD</p>
+<p>adventure capitalist</p>
+<p>merge planes</p>
+<p>Idle Miner Tycoon</p>
+<p>MinecraftPE</p>
+<p>2048</p>
+<p>2048 no ads</p>
+<p>Banner bank app</p>
+<p>Growtopia</p>
+<p>VLC</p>
+<p>Clash Royale card creator</p>
+<p>30 FPS VS 60 FPS</p>
+<p>Nothing.</p>
+<p>Bandcamp</p>
+<p>Twitter</p>
+<p>Tumblr</p>
+<p>Go90</p>
+<p>Fing</p>
+<p>LanDroid</p>
+<p>Zedge</p>
+<p>Yelp</p>
+<p>Instagram</p>
+<p>Facebook</p>
+<p>Thingiverse</p>
+<p>Minesweeper</p>
+<p>Dank meme soundboard</p>
+<p>Windows XP soundboard</p>
+<p>Flex tape soundboard</p>
+<p>iMegacam</p>
+<p>ZOSIview</p>
+<p>Lorex Mobile Eco</p>
+<p>Comic screen</p>
+<p>ASCIICam</p>
+<p>Mobizen</p>
+<p>Sensor box for Android</p>
+<p>Speedtest</p>
+<p>Hulu</p>
+<p>Vimeo</p>
+<p>Discord</p>
+<p>Horizon VM</p>
+<p>DOSBox</p>
+<p>Teamviewer</p>
+<p>Voice changer (with effects)</p>
+<p>Google+</p>
+<p>FitBit</p>
+<p>Cleanmaster</p>
+<p>Tello</p>
+<p>WinXP Plus</p>
+<p>Periscope</p>
+<p>Disk usage</p>
+<p>Reddit</p>
+<p>Oculus</p>
+<p>VR cave flythrough</p>
+<p>VR Freeflight</p>
+<p>Rilix rollercoaster</p>
+<p>Escape your fears</p>
+<p>Adsense</p>
+<p>YT Creator studio</p>
+<p>ADV Screen recorder</p>
+<p>Magic light BLE</p>
+<p>Spectrum TV</p>
+<p>XBOX</p>
+<p>DuckDuckGo</p>
+<p>Mozilla Firefox</p>
+<p>Amazon</p>
+<p>Amazon kindle</p>
+<p>Google search</p>
+<p>Gmail</p>
+<p>Google Maps</p>
+<p>Google Drive</p>
+<p>Play movies & TV</p>
+<p>Google Hangouts</p>
+<p>Google photos</p>
+<p>Google pay</p>
+<p>Samsung email</p>
+<p>Samsung files</p>
+<p>Samsung health</p>
+<p>S voice</p>
+<p>Verizon call filter</p>
+<p>Verizon cloud</p>
+<p>Verizon message+</p>
+<p>My verizon</p>
+<p>NFL</p>
+<p>Slacker radio</p>
+<p>VZ navigator</p>
+<p>Calculator</p>
+<p>Calendar</p>
+<p>Camera</p>
+<p>Clock</p>
+<p>Gallery</p>
+<p>Help</p>
+<p>Memo</p>
+<p>Messages</p>
+<p>Google play music</p>
+<p>Google play store</p>
+<p>Samsung gear</p>
+<p>Contacts</p>
+<p>Settings</p>
+<p>Voicemail</p>
+<p>IMDB</p>
+<p>Google Play games</p>
+<p>Phone</p>
+<p>Play books</p>
+<p>Google Chrome</p>
+<p>Amazon shopping</p>
+<p>Prime video</p>
+<p>Game recorder</p>
+<p>Cardboard</p>
+<p>IR remote</p>
+<p>Netflix</p>
+<p>Primer</p>
+<p>Security and privacy</p>
+<p>Fire tv</p>
+<p>Google translate</p>
+<p>Google Earth</p>
+<p>Android pay</p>
+<p>Galaxy themes</p>
+<p>Finder</p>
+<p>Galaxy store</p>
+<p>Smartthings</p>
+<p>Google Newsstand</p>
+<p>Ditty</p>
+</details>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="AllAppsToBackup5">All apps to backup</H1>
+<p>Ultimate Notepad</p>
+<p><b>Backup storm8 games</b></p>
+<p><u>List</u></p>
+<input type="checkbox">> restaurant story<br>
+<input type="checkbox">> bakery story<br>
+<input type="checkbox">> pet shop story<br>
+<input type="checkbox">> fashion story<br>
+<input type="checkbox">> farm story<br>
+<p>Backup PVZ2</p>
+<p>Get Tiny Tower email backup confirmed</p>
+<p><b>Move Supercell games over (log into them again)</b></p>
+<p><u>Game list:</u></p>
+<input type="checkbox">> Clash of Clans<br>
+<input type="checkbox">> Boom Beach<br>
+<input type="checkbox">> Hay Day<br>
+<input type="checkbox">> Clash Royale<br>
+<p>Backup hill climb racing</p>
+<p><b>Backup sonic games</b></p>
+<p><u>Game list</u></p>
+<input type="checkbox">> Sonic 1<br>
+<input type="checkbox">> Sonic 2<br>
+<input type="checkbox">> Sonic CD<br>
+<p>Backup adventure capitalist</p>
+<p>Backup merge planes</p>
+<p>Backup Idle Miner Tycoon</p>
+<p>Backup MinecraftPE</p>
+<p>Backup Reddit</p>
+<p>Backup Messages</p>
+<p>Backup Google accounts</p>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="ManualAppDataBackup5">Manual backup appdata</H1>
+<details><summary><H2>Clock |></H2></summary>
+<HR>
+<p>All Emojis are incompatible and need to be re-entered - October 28th 2019</p>
+<p>Reference files (for developing clock data)</p>
+<p><a href="RESOURCES/Notepad - AlarmlistV1.txt">Notepad - AlarmlistV1.txt</a></p>
+<p><a href="RESOURCES/Notepad - AlarmlistV2.txt">Notepad - AlarmlistV2.txt</a></p>
+<details><summary><H2>Alarm 1 of 50</H2></summary>
+<H2>Title:</H2><!-- No title !-->
+<p>00:00 am (12:00 am)</p>
+<p>Name:</p>
+<p>Time: 00:00 (12:00 am)</p>
+<p>Repeat: no days</p>
+<p>Snooze: 5 minutes 3 times</p>
+<p>Alarm sound: on the stage</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 2 of 50</H2></summary>
+<H2>Title:</H2><!-- No title !-->
+<p>01:00 (1:00 am)</p>
+<p>Name:</p>
+<p>Time: 01:00 (1:00 AM)</p>
+<p>Repeat: none</p>
+<p>Snooze: 5 minutes 3 times</p>
+<p>Alarm sound: morning flower</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 3 of 50</H2></summary>
+<H2>Title: unexpectedwakeup?!?!</H2>
+<p>Time: 02:39 (2:39 am)</p>
+<p>Repeat: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday</p>
+<p>Snooze: 5 minutes 3 times</p>
+<p>Alarm sound: morning flower</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 4 of 50</H2></summary>
+<H2>Title: super seanic</H2>
+<p>Time: 02:50 (2:50 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: paper guitar</p>
+<p>Vibration: heartbeat</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 5 of 50</H2></summary>
+<H2>Title: ðŸ”µðŸ”²ðŸ†—ï¸ðŸ”²ðŸ”µ</H2>
+<p>Time: 03:00 (3:00 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: one step forward</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 6 of 50</H2></summary>
+<H2>Title:</H2><!-- No title !-->
+<p>Time: 03:15 (3:15 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: soft chimes</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 7 of 50</H2></summary>
+<H2>Title: 330p</H2>
+<p>Time: 03:45 (3:45 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: platinum</p>
+<p>Vibration: zig-zig-zig</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 8 of 50</H2></summary>
+<H2>Title: morning6</H2>
+<p>Time: 03:50 (3:50 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: evening breeze</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 9 of 50</H2></summary>
+<H2>Title: $$$$$$$$$$#%$$%#&,@<</H2>
+<p>Time: 04:04 (4:04 AM)</p>
+<p>Repeat: Monday, Tuesday, Wednesday, Thursday, Friday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: super sonic</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 10 of 50</H2></summary>
+<H2>Title: slepy</H2>
+<p>Time: 04:15 (4:15 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: paper guitar</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 11 of 50</H2></summary>
+<H2>Title: ####################</H2>
+<p>Time: 04:30 (4:30 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: windows 95 startup sound</p>
+<p>Vibration: waltz</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 12 of 50</H2></summary>
+<H2>Title: wow</H2>
+<p>Time: 04:45 (4:45 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: echo</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true:</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 13 of 50</H2></summary>
+<H2>Title: newscreenrecorder</H2>
+<p>Time: 04:56 (4:56 AM)</p>
+<p>Repeat: Monday, Tuesday, Wednesday, Thursday, Friday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: VZW airwaves</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 14 of 50</H2></summary>
+<H2>Title:</H2><!-- No title !-->
+<p>Time: 05:07 (5:07 AM)</p>
+<p>Repeat: Monday, Tuesday, Wednesday, Thursday, Friday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: soft chimes</p.
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 15 of 50</H2></summary>
+<H2>Title: uhoh!retardalert</H2>
+<p>Time: 05:15 (5:15 AM)</p>
+<p>Repeat: Monday, Tuesday, Wednesday, Thursday, Friday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: one step forward</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 16 of 50</H2></summary>
+<H2>Title: Scrnrecrdrweekend</H2>
+<p>Time: 05:20 (5:20 AM)</p>
+<p>Repeat: Monday, Tuesday, Wednesday, Thursday, Friday</p>
+<p>Snooze: 5 minutes, continuously </p>
+<p>Alarm sound: tomorrow</p>
+<p>Vibration: heartbeat</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 17 of 50</H2></summary>
+<H2>Title: wakeupsleepyhead</H2>
+<p>Time: 05:30 (5:30 AM)</p>
+<p>Repeat: Monday, Tuesday, Wednesday, Thursday, Friday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: Windows 2000 startup sound</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 18 of 50</H2></summary>
+<H2>Title: mitchywakywaky</H2>
+<p>Time: 05:38 (5:38 AM)</p>
+<p>Repeat: Monday, Tuesday, Wednesday, Thursday, Friday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: spacecraft</p>
+<p>Vibration: heartbeat</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 19 of 50</H2></summary>
+<H2>Title: WinXPchimerwakeupðŸ…±</H2>
+<p>Time: 05:45 (5:45 AM)</p>
+<p>Repeat: Monday, Tuesday, Wednesday, Thursday, Friday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: Windows_XP_Welcome-ringtone-1310692</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 20 of 50</H2></summary>
+<H2>Title:</H2><!-- No title !-->
+<p>Time: 05:52 (5:52 AM)</p>
+<p>Repeat: Monday, Tuesday, Wednesday, Thursday, Friday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: percussion</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 21 of 50</H2></summary>
+<H2>Title: wakedaddyup</H2>
+<p>Time: 06:00 (6:00 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: basic tone</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 22 of 50</H2></summary>
+<H2>Title: summerfuntime</H2>
+<p>Time: 06:00 (6:00 AM)</p>
+<p>Repeat: Monday, Tuesday, Wednesday, Thursday, Friday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: percussion</p>
+<p>Vibration: heartbeat</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 23 of 50</H2></summary>
+<H2>Title: NewSchedule 12.18.17</H2>
+<p>Time: 06:10 (6:10 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minute, continuously</p> 
+<p>Alarm sound: metal drop</p>
+</p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 24 of 50</H2></summary>
+<H2>Title: Newsched 12.18.17 2</H2>
+<p>Time: 06:20 (6:20 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: Windows_Xp-ringtone-1308842</p>
+<p>Vibration: zig-zig-zig</p>
+<p.Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 25 of 50</H2></summary>
+<H2>Title: school</H2>
+<p>Time: 06:30 (6:30 am)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: VZW Airwaves</p>
+<p>Vibration: heartbeat</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 26 of 50</H2></summary>
+<H2>Title: time2getoutofbedsean</H2>
+<p>Time: 07:20 (7:20 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: VZW airwaves</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 27 of 50</H2></summary>
+<H2>Title: napovr2</H2>
+<p>Time: 07:25 (7:25 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: paper guitar</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 28 of 50</H2></summary>
+<H2>Title: 2000</H2>
+<p>Time: 07:25 (7:25 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: Windows 2000 startup</p>
+<p>Vibration: heartbeat</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 29 of 50</H2></summary>
+<H2>Title: getupsean</H2>
+<p>Time: 07:35 (7:35 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continously</p>
+<p>Alarm sound: beep once</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 30 of 50</H2></summary>
+<H2>Title: get up</H2>
+<p>Time: 07:37 (7:37 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: doll house</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 31 of 50</H2></summary>
+<H2>Title: HaUjustgotprankedbro</H2>
+<p>Time: 07:44 (7:44 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: on the stage</p>
+<p>Vibration basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 32 of 50</H2></summary>
+<H2>Title: Get.the.F.up</H2>
+<p>Time: 07:45 (7:45 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: brilliant tone</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 33 of 50</H2></summary>
+<H2>Title: KEKWILLRISEIFUDNTGUP</H2>
+<p>Time: 08:00 (8:00 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: VZW airwaves</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 34 of 50</H2></summary>
+<H2>Title: gtfu</H2>
+<p>Time: 08:15 (8:15 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: soft chimes</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 35 of 50</H2></summary>
+<H2>Title: Daylightsavingssucks</H2>
+<p>Time: 08:35 (8:35 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: morning flower</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 36 of 50</H2></summary>
+<H2>Title:</H2><!-- No title !-->
+<p>Time: 09:00 (9:00 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: paper guitar</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 37 of 50</H2></summary>
+<H2>Title: Wakuporithapnsagn</H2>
+<p>Time: 09:11 (9:11 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: Windows_Xp-ringtone-13088rw</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 38 of 50</H2></summary>
+<H2>Title:</H2><!-- No title !-->
+<p>Time: 09:30 (9:30 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: paper guitar</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 39 of 50</H2></summary>
+<H2>Title:</H2><!-- No title !-->
+<p>Time: 10:00 (10:00 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: scampering tone</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 40 of 50</H2></summary>
+<H2>Title: Futass pootis</H2>
+<p>Time: 10:15 (10:15 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: percussion</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 41 of 50</H2></summary>
+<H2>Title: dog</H2>
+<p>Time: 11:00 (11:00 AM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: paper guitar</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 42 of 50</H2></summary>
+<H2>Title: Dontforgetwritedrink</H2>
+<p>Time: 14:23 (2:23 PM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: mute</p>
+<p>Vibration: zig-zig-zig</p>
+<p>Read-aloud: false/disabled</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 43 of 50</H2></summary>
+<H2>Title: Mitchie_is_home?</H2>
+<p>Time: 15:15 (3:15 PM)</p>
+<p>Repeat: Monday, Tuesday, Wednesday, Thursday, Friday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: scampering tone</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 44 of 50</H2></summary>
+<H2>Title: Lenny face</H2>
+<p>Time: 16:00 (4:00 PM)</p> 
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: morning flower</p>
+<p>Vibration: off</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 45 of 50</H2></summary>
+<H2>Title:  ðŸ…±â„¹ðŸ…±</H2>
+<p>Time: 17:55 (5:55 PM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: Windows_Xp_Welcome-Ringtone-1310692</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p.
+</details>
+<HR>
+<details><summary><H2>Alarm 46 of 50</H2></summary>
+<H2>Title: Napover</H2>
+<p>Time: 18:15 (6:15 PM)</p>
+<p>Repeat: none</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: paper guitar</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud:  false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 47 of 50</H2></summary>
+<H2>Title: Pills+freechesttime]</H2>
+<p>Time: 19:05 (7:05 PM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: morning flower</p>
+<p>Vibration: off</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 48 of 50</H2></summary>
+<H2>Title:</H2><!-- No title !-->.
+<p>Time: 19:14 (7:14 PM)</p>
+<p>Repeat: everyday</p>
+<p>Snooze: 5 minutes, continuously</p>
+<p>Alarm sound: scampering tone</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 49 of 50</summary>
+<H2>Title:</H2><!-- No title !-->
+<p>Time: 21:00 (9:00 PM)</p>
+<p>Repeat: none</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: percussion</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: false</p>
+</details>
+<HR>
+<details><summary><H2>Alarm 50 of 50</summary>
+<H2>Title:</H2><!-- No title !-->
+<p>Time: 23:00 (11:00 PM)</p>
+<p>Repeat: none</p>
+<p>Snooze: 5 minutes, 3 times</p>
+<p>Alarm sound: times up</p>
+<p>Vibration: basic call</p>
+<p>Read-aloud: true</p>
+</details>
+<HR>
+</details>
+<p>More info</p>
+<p>Max alarm title: 20 characters</p>
+<p>Max alarms: 50</p>
+<p>Alarms: 50/50</p>
+</details>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="DeviceAudio5">Device audio</H1>
+<details><summary><H2>Download</H2>
+<p>></p></summary>
+<p>Plants vs. zombies 2 far future ringtone C2.mp3</p>
+</details>
+<HR>
+<details><summary><H2>iBlast Moki 2</H2>
+<p>></p></summary>
+<p>Romain Gauthier - iBlast Moki 2 - 01 Title & menu.mp3</p>
+<p>Romain Gauthier - iBlast Moki 2 - 02 Moki Pirate Land.mp3</p>
+<p>Romain Gauthier - iBlast Moki 2 - 03 Game Intro.mp3</p>
+<p>Romain Gauthier - iBlast Moki 2 - 04 Forest.mp3</p>
+<p>Romain Gauthier - iBlast Moki 2 - 05 Deserted Land.mp3</p>
+<p>Romain Gauthier - iBlast Moki 2 - 06 My Name is Moki.mp3</p>
+<p>Romain Gauthier - iBlast Moki 2 - 07 iBlast Moki - Extended Title (2009).mp3</p>
+<p>Romain Gauthier - iBlast Moki 2 - 08 iBlast Moki - Background Music 1 (2009).mp3</p>
+<p>Romain Gauthier - iBlast Moki 2 - 09 iBlast Moki - Background Music 2 (2009).mp3</p>
+</details>
+<HR>
+<details><summary>Other</H2>
+<p>></p></summary>
+</details>
+<HR>
+<p>End of device audio tree</p>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="GoogleAccountList5">Google account list</H1>
+<H2>For S7 edge (12 accounts total)</H2>
+<H4>01 | theironmelonmc4384141@gmail.com (main account)</H4>
+<H4>02 | vernmyrick5521@gmail.com (papas account [sub-owned by me])</H4>
+<H4>03 | 0807111@wwps.org (school account)</H4>
+<H4>04 | seanwallawallaofficial@gmail.com (second account)</H4>
+<H4>05 | seanwallawallabusiness@gmail.com (old, unused business account)</H4>
+<H4>06 | seanwallawallalive@gmail.com (live streaming account)</H4>
+<H4>07 | seanwallawallalibrary@gmail.com (book reading and library account)</H4>
+<H4>08 | seanwallawallaanimatuions@gmail.com (YouTube animations account)</H4>
+<H4>09 | seanwallawallagaming@gmail.com (YouTube gaming account)</H4>
+<H4>10 | seanwallawallastats@gmail.com (YouTube statistic video archive account)</H4>
+<H4>11 | seanlanguagemyrick2k01@gmail.com (personal private account)</H4>
+<H4>12 | seanwallawallamusic@gmail.com (YouTube music account)</H4>
+<H3>12 accounts total, 4 still in use (Accounts 1, 2, 3, 4 are still in use)</H3>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<H1 id="ShortcutSection5">Shortcuts</H1>
+<p>YouTube (Count: 24) [Link: <a href="https://m.youtube.com">https://m.youtube.com</a>] (the 'm' in links typically stands for 'mobile')</p>
+<p>Alpha (Count: 1) [Link: <a href="https://m.hangouts.google.com">https://m.hangouts.google.com</a>]</p>
+<p>Alpha Jeffriat (Count: 1) [Link: <a href="https://m.hangouts.google.com">https://m.hangouts.google.com</a>]</p>
+<p>Seanwallawalla online (Count: 1) [Link: <a href="https://www.sites.google.com/view/sean-walla-walla-online/home">https://www.sites.google.com/view/sean-walla-walla-online/home</a>]</p>
+<HR>
+<H1 id="OtherDeviceInfo5">Other device info</H1>
+<H2>First OS: Android 7.0 (Nougat)</H2>
+<H2>First upgrade: Android 7.1 (Nougat)</H2>
+<H2>Second upgrade: Android 8.0 (Oreo)</H2>
+<H2>Third (and final) upgrade: Android 8.1 (Oreo)</H2>
+<HR><!--=======================================================================================================================================================================================================================!-->
+<!--
+Divider
+!-->
+<H1>Phone data</H1>
+<H2>[new device]</H2>
+<div class="background">
+	<div class="transbox">
+		<H1>Index</H1>
+		<p><a href="#InternalChecklist6">Internal checklist</a></p>
+		<p><a href="#AppsSection6">Apps section</a></p>
+		<p><a href="#ReinstallSection6">Reinstall section</a></p>
+		<p><a href="#VRAppSection6">VR (Virtual Reality) app section</a></p>
+		<p><a href="#GoogleSection6">Google apps section</a></p>
+		<p><a href="#BrowserSection6">Browser section</a></p>
+		<p><a href="#PreloadedAppsSection6">Pre-loaded apps section</a></p>
+		<p><a href="#FoldersSection6">Desktop1 folders section</a></p>
+		<p><a href="#DesktopSection6">Desktop gallery section (1 and 2)</a></p>
+		<p><a href="#AllAppsCollection6">All apps (collection)</a></p>
+		<p><a href="#AllAppsToBackup6">All apps to backup</a></p>
+		<p><a href="#ManualAppDataBackup6">Manual app data backup</a></p>
+		<p><a href="#GoogleAccountList6">Google account list</a></p>
+		<p><a href="#PageVersionHistory6">Page version history</a></p>
+		<p><a href="#ShortcutSection6">Shortcut section</a></p>
+		<p><a href="#FileInfoBottom6">File info</a></p>
+		<p><a href="#OtherDeviceInfo6">Other device info</a></p>
+	</div>
+</div>
+<HR>
+<H1 id="internalChecklist6">Internal checklist</H1>
+<p>Device doesn't exist yet</p>
+<HR>
+<H1 id="AppsSection6">Apps section</H1>
+<p>Device doesn't exist yet</p>
+<HR>
+<H1 id="ReinstallSection6">Reinstall section</H1>
+<p>Device doesn't exist yet</p>
+<HR>
+<H1 id="VRAppSection6">VR apps</H1>
+<p>Device doesn't exist yet</p>
+<HR>
+<H1 id="GoogleSection6">Google section</H1>
+<p>Device doesn't exist yet</p>
+<HR>
+<H1 id="BrowserSection6">Browser section</H1>
+<p>Device doesn't exist yet</p>
+<HR>
+<H1 id="PreloadedAppsSection6">Pre-loaded apps</H1>
+<p>Device doesn't exist yet</p>
+<HR>
+<H1 id="FolderSection6">Folders</H1>
+<p>Device doesn't exist yet</p>
+<HR>
+<H1 id="DesktopSetup6">Desktop setup</H1>
+<p>Todo in a VM</p>
+<p>Device doesn't exist yet</p>
+<HR>
+<H1 id="AllAppsCollection6">All apps</H1>
+<HR>
+<details><summary>View in grid form</summary>
+<div class="grid-container">
+	<div class="grid-item"></div>
+</div>
+</details>
+<HR>
+<details><summary>View in list form</summary>
+<p>App.list</p>
+</details>
+<HR>
+<H1 id="AllAppsToBackup6">All apps to backup</H1>
+<p>Device doesn't exist yet</p>
+<HR>
+<H1 id="ManualAppDataBackup6">All apps to manually backup</H1>
+<p>Device doesn't exist yet</p>
+<HR>
+<H1 id="GoogleAccountList6">Google Account list</H1>
+<p>Device doesn't exist yet</p>
+<HR>
+<H1 id="ShortcutSection6">Shortcut section</H1>
+<p>Device doesn't exist yet</p>
+<HR>
+<H1 id="OtherDeviceInfo6">Other device info</H1>
+<p>Device doesn't exist yet</p>>
+<HR>
+<!-- 
+Divider
+!-->
+<H1 id="PageVersionHistory">Version history:</H1>
+<p>Version 1: (Made on Android 8.1) - October 24th 2019 (<a href="Notepad - !!!phoneBackupfromS7edgeV1.txt">Click here to view</a>)</p>
+<details><summary><p>Changes:</p></summary>
+<p>* Added in internal to-do list</p>
+<p>* Added in apps section</p>
+<p>* Added in simple reinstall section</p>
+<p>* Added in VR section</p>
+<p>* Added in browsers section</p>
+<p>* Added in Google product section</p>
+<p>* Added in pre-loaded apps section</p>
+<p>* Added in apps section</p>
+<p>* Added in file info section</p>
+</details>
+<HR>
+<p>Version 2: (Updated with Windows 10 Home) - October 24th 2019 (<a href="!!!phoneBackupfromS7edgeV2.txt">Click here to view</a>)</p>
+<details><summary><p>Changes:</p></summary>
+<p>* Added in dividers</p>
+<p>* Updated folder info</p>
+<p>* Added in an all apps section</p>
+<p>* Added in all apps to backup section</p>
+<p>* Added in shortcuts section</p>
+<p>* Updated file info section</p>
+</details>
+<HR>
+<p>Version 3: (Updated with Windows 10 Home) - October 25th 2019 (<a href="!!!phoneBackupfromS7edgeV3.txt">Click here to view</a>)</p>
+<details><summary><p>Changes:</p></summary>
+<p>* Added in picture info</p>
+<p>* Updated internal to-do list further</p>
+<p>* Added in device audio section</p>
+<p>* Added in Google account list section</p>
+<p>* Added in version history section</p>
+</details>
+<HR>
+<p>Version 4: (Updated with Windows 10 Home, converted from plain text to HTML5) - October 26th 2019 (<a href="!!!phoneBackupfromS7edgeV4.html">Click here to view</a>)</p>
+<details><summary><p>Changes:</p></summary>
+<p>* Converted page to HTML5</p>
+<p>* Added in alarm data</p>
+<p>* Organized dividers</p>
+<p>* Added in updated version history section</p>
+<p>* Added in Desktop 1 and Desktop 2 image section</p>
+<p>* Added in index</p>
+<p>* Created Favicon</p>
+<p>* Added in sidebar</p>
+<p>* Turned internal to-do list into a checklist</p>
+<p>* Added in several checklists</p>
+<p>* Updated file info section</p>
+<p>* Updated version history section</p>
+<p>* Added in a PHP idea section</p>
+<p>* Added in a JavaScript console output section</p>
+<p>* Added in CSS and CSS rules</p>
+</details>
+<HR>
+<p>Version 5: (Updated with Windows 10 Home, modifications made) - October 27th 2019 (<a href="!!!phoneBackupfromS7edgeV5.html">Click here to view</a>)</p>
+<details><summary><p>Changes:</p></summary>
+<p>* Linked older versions</p>
+<p>* Added in an update log into the Version History section</p>
+<p>* Updated PHP data</p>
+<p>* Moved the version history page below the shortcuts section</p>
+<p>* Updated the version history section</p>
+<p>* Updated the file info section</p>
+<p>* Updated the audio directory section</p>
+</details>
+<HR>
+<p>Version 6: (Updated with Windws 10 home, name change, major changes) - October 28th 2019 (<a href="SeansAndroidGalleryVM_V6.html">Click here to view</a>)<p>
+<details><summary><p>Changes:</p></summary>
+<p>* Changed file name</p>
+<p>* Created an app grid system</p>
+<p>* Updated the version history section</p>
+<p>* Updated the file info section</p>
+<p>* Updated CSS</p>
+<p>* Added in a megasection for papas HTC phone</p>
+<p>* Added in a megasection header for the S7 edge</p>
+<p>* Added in a megasection for papas/my Samsung Galaxy S2</p>
+<p>* Added in a megasection for my first Samsung Galaxy Core prime</p>
+<p>* Added in a megasection for my second Samsung Galaxy Core prime</p>
+<p>* Updated the sidebar</p>
+<p>* Major grid update to the S7 edge all app list</p>
+<p>* Updated section IDs to better suit the 5 device system</p>
+<p>* Updated the S7 edge alarm list to include a fix to alarm 2, and the 2 reference files being linked</p>
+<p>* Added in other device info sections</p>
+</details>
+<HR>
+<p>Version 7: (Updated with Windows 10 home, many changes) - October 29th 2019 (<a href="SeansAndroidGalleryVM_V7.html">Click here to view</a>)</p>
+<details><summary><p>Changes:</p></summary>
+<p>* Added in a section for a new device (successor to S7 edge)</p>
+<p>* Added in more icons to the grid for the S7 edge all apps section</p>
+<p>* Updated the version history section</p>
+<p>* Updated the file info section</p>
+<p>* Added in pictures for all devices</p>
+<p>* Updated the idea section (PHP)</p>
+<p>* Added in more info for the HTC phone</p>
+<p>* Added in info for the Samsung Galaxy S2</p>
+<p>* Added in info for my first Samsung Galaxy Core prime</p>
+<p>* Added in info for my second Samsung Galaxy Core prime</p>
+<!--
+todo:
+Get data for S2, CorePrime 1 and 2 - Done!
+!-->
+</details>
+<p>Version 8: Coming soon</p>
+<details><summary><p>Changes:</p></summary>
+<p>Version hasn't been created yet</p>
+</details>
+<HR><!--***********************************************************************************************************************************************************************************************************************!-->
+<H1 id="FileInfoBottom">File info</H1>
+<p>Purpose: backing up S7 edge to next Android device + first Android VM (new purposes: archiving all Android device info for historical reasons, and for mass virtual machine archival)</p>
+<p>Line count: 02,.073</p>
+<p>Character count: 089,.348 characters (Some Unicode characters in file)</p>
+<p>File size: 0,.089,.396 bytes (0,.089,.396 Kilobytes) (00,.089,.396 Megabytes [File shouldn't reach a megabyte in size])</p>
+<p>File type: Originally: *.txt (Plain Text Document) Now: *.html (HyperText Markup Language document)</p>
+<p>File version: 7 (October 29th 2019)</p>
+<p>First version: 1 (October 24th 2019)</p>
+<p>Encoding: UTF-8</p>
+<p>Line break type: UNIX (LF)</p>
+<p>Created with: third party notepad application for Android 8.0 (Oreo) [Previously: Android Nougat (7.0/7.1) </p>
+<p>Then with: Notepad++ 7.5.9 64 bit for later update V2, V3, V4, V5, V6 V7 and a possible upcoming V8 (On Windows 10 home build 1809 (10.0.17763 build 17763)</p>
+<HR><!--=======================================================================================================================================================================================================================!-->
+</BODY>
+</HTML>
+<!-- End of script !-->

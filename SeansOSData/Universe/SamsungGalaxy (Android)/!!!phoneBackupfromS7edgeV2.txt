@@ -1,0 +1,404 @@
+=======================================================================================================================================================================================================================
+Todo list for phone backup
+S7 Edge to [NEW_DEVICE]
+Pictures also taken for app locations
+=======================================================================================================================================================================================================================
+Internal (highest priority)
+
+Do an SMS backup (Use SMS backup & restore, backup messages, and phone calls, upload the XML data)
+Backup all photos (Easy, just back it up via Samsung files. This is done on a daily basis as well)
+Backup all videos (Easy, just back it up via Samsung files. This is done on a bi-daily basis as well)
+Backup all audio (Easy, just back it up via Samsung files. This is done rarely due to the fact that I don't put new audio on my phone frequently)
+=======================================================================================================================================================================================================================
+Apps (highest priority)
+Get info on Google accounts
+Find notepad
+Backup storm8 games
+List
+> restaurant story
+> bakery story
+> pet shop story
+> fashion story
+> farm story
+Backup PVZ2
+Get Tiny Tower email backup confirmed
+Move Supercell games over (log into them again)
+Game list:
+> Clash of Clans
+> Boom Beach
+> Hay Day
+> Clash Royale
+Backup hill climb racing
+Backup sonic games
+Game list
+> Sonic 1
+> Sonic 2
+> Sonic CD
+Backup adventure capitalist
+Backup merge planes
+Backup Idle Miner Tycoon
+Backup MinecraftPE
+=======================================================================================================================================================================================================================
+Reinstall (no internal data app)
+2048
+2048 no ads
+Banner bank app
+Growtopia
+Twitter
+VLC
+Clash Royale card creator
+30 FPS VS 60 FPS
+Nothing.
+Bandcamp
+Twitter
+Tumblr
+Go90
+Fing
+LanDroid
+Zedge
+Yelp
+Instagram
+Facebook
+Thingiverse
+Minesweeper
+Dank meme soundboard
+Windows XP soundboard
+Flex tape soundboard
+iMegacam
+ZOSIview
+Lorex Mobile Eco
+Comic screen
+ASCIICam
+Mobizen
+Sensor box
+Speedtest
+Hulu
+Vimeo
+Discord
+Horizon VM
+DOSBox
+Teamviewer
+Voice changer (with effects)
+See if Google+ can still be installed
+FitBit
+Cleanmaster
+Tello
+WinXP Plus
+Periscope
+Disk usage
+Reddit
+Google Hangouts
+=======================================================================================================================================================================================================================
+VR
+Oculus
+VR cave flythrough
+VR Freeflight
+Rilix rollercoaster
+Escape your fears
+(Setup Oculus for offline VM usage)
+=======================================================================================================================================================================================================================
+Google
+Google play books
+YouTube (accounts)
+Google Drive
+GMail
+Adsense
+YT Creator studio
+ADV Screen recorder
+Magic light BLE
+Spectrum TV
+XBOX
+SMS Backup & Restore
+=======================================================================================================================================================================================================================
+Browsers
+DuckDuckGo
+Mozilla Firefox
+Google Chrome (comes with device unfortunately)
+=======================================================================================================================================================================================================================
+Preloaded
+Amazon
+Amazon kindle
+Google search
+Gmail
+Google Maps
+Google Drive
+Play movies & TV
+Google Hangouts
+Google photos
+Google pay
+Samsung email
+Samsung files
+Samsung health
+S voice
+Verizon call filter
+Verizon cloud
+Verizon message+
+My verizon
+NFL
+Slacker radio
+VZ navigator
+Calculator
+Calendar
+Camera
+Clock
+Gallery
+Help
+Memo
+Messages
+Google play music
+Google play store
+Samsung gear
+Contacts
+Settings
+Voicemail
+IMDB
+Google Play games
+Phone
+Play books
+Google Chrome
+Amazon shopping
+Prime video
+Game recorder
+Cardboard
+IR remote
+Netflix
+Primer
+Security and privacy
+Fire tv
+Google translate
+Google Earth
+Android pay
+Galaxy themes
+Finder
+Galaxy store
+Smartthings
+Google Newsstand
+=======================================================================================================================================================================================================================
+Folders
+These folders were preloaded with the phone. Minor modifications were made
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AmazonJungle (Original directory name: Amazon)
+>Folder:
+Amazon
+Amazon kindle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+W3B (Original directory name: Google)
+>Folder:
+Gmail
+Google Maps
+Google Drive
+Reddit
+Play movies & TV
+Google Hangouts
+Google photos
+Google pay
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sam-sang (Original directory name: Samsung)
+>Folder:
+Samsung email
+Samsung files
+Samsung health
+S voice
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Verizoon (Original directory name: Verizon)
+>Folder:
+Verizon call filter
+Verizon cloud
+Verizon message+
+My verizon
+NFL
+Slacker radio
+VZ navigator
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+End of pre-loaded folder file section
+Pictures taken to show where everything is
+=======================================================================================================================================================================================================================
+All apps
+Notepad
+restaurant story
+bakery story
+pet shop story
+fashion story
+farm story
+Plants vs. Zombies 2
+Tiny Tower
+Clash of Clans
+Boom Beach
+Hay Day
+Clash Royale
+hill climb racing
+Sonic 1
+Sonic 2
+Sonic CD
+adventure capitalist
+merge planes
+Idle Miner Tycoon
+MinecraftPE
+2048
+2048 no ads
+Banner bank app
+Growtopia
+Twitter
+VLC
+Clash Royale card creator
+30 FPS VS 60 FPS
+Nothing.
+Bandcamp
+Twitter
+Tumblr
+Go90
+Fing
+LanDroid
+Zedge
+Yelp
+Instagram
+Facebook
+Thingiverse
+Minesweeper
+Dank meme soundboard
+Windows XP soundboard
+Flex tape soundboard
+iMegacam
+ZOSIview
+Lorex Mobile Eco
+Comic screen
+ASCIICam
+Mobizen
+Sensor box for Android
+Speedtest
+Hulu
+Vimeo
+Discord
+Horizon VM
+DOSBox
+Teamviewer
+Voice changer (with effects)
+Google+
+FitBit
+Cleanmaster
+Tello
+WinXP Plus
+Periscope
+Disk usage
+Reddit
+Oculus
+VR cave flythrough
+VR Freeflight
+Rilix rollercoaster
+Escape your fears
+Adsense
+YT Creator studio
+ADV Screen recorder
+Magic light BLE
+Spectrum TV
+XBOX
+DuckDuckGo
+Mozilla Firefox
+Amazon
+Amazon kindle
+Google search
+Gmail
+Google Maps
+Google Drive
+Play movies & TV
+Google Hangouts
+Google photos
+Google pay
+Samsung email
+Samsung files
+Samsung health
+S voice
+Verizon call filter
+Verizon cloud
+Verizon message+
+My verizon
+NFL
+Slacker radio
+VZ navigator
+Calculator
+Calendar
+Camera
+Clock
+Gallery
+Help
+Memo
+Messages
+Google play music
+Google play store
+Samsung gear
+Contacts
+Settings
+Voicemail
+IMDB
+Google Play games
+Phone
+Play books
+Google Chrome
+Amazon shopping
+Prime video
+Game recorder
+Cardboard
+IR remote
+Netflix
+Primer
+Security and privacy
+Fire tv
+Google translate
+Google Earth
+Android pay
+Galaxy themes
+Finder
+Galaxy store
+Smartthings
+Google Newsstand
+=======================================================================================================================================================================================================================
+All apps to backup
+Notepad
+Backup storm8 games
+List
+> restaurant story
+> bakery story
+> pet shop story
+> fashion story
+> farm story
+Backup PVZ2
+Get Tiny Tower email backup confirmed
+Move Supercell games over (log into them again)
+Game list:
+> Clash of Clans
+> Boom Beach
+> Hay Day
+> Clash Royale
+Backup hill climb racing
+Backup sonic games
+Game list
+> Sonic 1
+> Sonic 2
+> Sonic CD
+Backup adventure capitalist
+Backup merge planes
+Backup Idle Miner Tycoon
+Backup MinecraftPE
+Backup Reddit
+Backup Messages
+Backup Google accounts
+=======================================================================================================================================================================================================================
+Shortcuts
+YouTube (24) [Link: https://m.youtube.com]
+Alpha (1) [Link: https://hangouts.google.com]
+Alpha Jeffriat (1) [Link: https://hangouts.google.com]
+Seanwallawalla online (1) [Link: https://www.sites.google.com/view/sean-walla-walla-online/home]
+***********************************************************************************************************************************************************************************************************************
+File info
+Purpose: backing up S7 edge to next Android device + first Android VM
+Line count: 00,.404
+Character count: 010,.528 characters (no Unicode characters in file)
+File size: 010,.528 bytes (010,.528 Kilobytes) (00,.010,.528 Megabytes [File shouldn't reach a megabyte in size])
+File type: *.txt (Plain Text Document)
+File version: 2 (October 24th 2019)
+First version: 1 (October 24th 2019)
+Encoding: UTF-8
+Encoding2: UNIX (LF)
+Created with: third party notepad application for Android 8.0 (Oreo) [Previously: Android Nougat (7.0/7.1)
+Then Notepad++ 7.5.9 64 bit for later update V2, and a possible upcoming V3 (On Windows 10 home build 1809 (10.0.17763 build 17763)
+=======================================================================================================================================================================================================================

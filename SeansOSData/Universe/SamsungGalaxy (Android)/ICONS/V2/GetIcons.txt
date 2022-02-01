@@ -1,0 +1,66 @@
+GetIcons
+
+-4 | Tiny Tower | Status: downloaded
+-3 | Firefox | Status: downloaded
+-2 | Chrome | Status: downloaded
+-1 | DOSBOX | Status: downloaded
+00 | YouTube | status: downloaded
+01 | CoC
+02 | Boom Beach
+03 | Clash Royale
+04 | Hay day
+05 | PVZ2
+06 | Instagram
+07 | Facebook
+08 | Tumblr
+09 | Twitter
+10 | Merge Planes
+11 | Thingiverse
+12 | Restaurant Story
+13 | Bakery story
+14 | Pet Shop story
+15 | Fashion story
+16 | Farm Story
+17 | Ditty
+18 | MinecraftPE
+19 | VLC media player
+20 | Idle Miner Tycoon
+21 | Adventure Capitalist
+22 | Ultimate notepad
+23 | Google Drive
+24 | Horizon VM
+25 | Banner Bank
+26 | ASCIICam
+27 | Calculator
+28 | Settings
+29 | Google
+30 | Google+
+31 | Amazon
+32 | Amazon Kindle
+33 | Lorex Mobile Eco
+34 | Mobizen
+35 | Oculus
+36 | Rilix rollercoaster
+37 | Google Photos
+38 | 30 FPS VS 60 FPS  
+39 | Samsung files  
+40 | Samsung Experience
+41 | Verizon Message+
+42 | Samsung Messages
+43 | camera 
+44 | clock
+45 | Samsung galaxy store 
+46 | contacts
+47 | XBOX 
+48 | Escape your fears
+49 | GMail   
+50 | Samsung Email
+51 | Nothing.
+52 | Google Play store
+53 | Google Play music
+54 | Google play movies
+55 | Go90
+56 | Verizon CallerID
+57 | Voicemail
+Total: 5/62
+Placeholder: AndroidDefaultIcon(Placeholder).png

@@ -1,0 +1,2 @@
+Firefox SVG resolution:
+512x542

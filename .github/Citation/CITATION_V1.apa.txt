@@ -1,0 +1,1 @@
+Myrick family, S. P. M. (2020). Seans OS Data - Personal operating system universe manager by @seanpm2001. If you use this collection piece, please cite it below [Data set]. https://doi.org/10.0000/00000

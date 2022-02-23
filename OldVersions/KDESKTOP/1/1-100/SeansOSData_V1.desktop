@@ -1,0 +1,18 @@
+# Start of script
+# KDE Desktop entry for @seanpm2001/SeansOSData
+[Desktop Entry]
+Type=Application
+Exec=SeansOSData %u
+MimeType=application/x-your-mime-type;
+Icon=Placeholder.svg
+X-DocPath=yourapp/index.html
+Terminal=false
+Name=Seans OS Data (@seanpm2001)
+GenericName=SeansOSData
+Comment=Seans OS Data - Personal operating system universe manager by @seanpm2001
+Categories=Qt;KDE;
+# File info
+# File type: KDE desktop file (*.desktop)
+# File version: 1 (2022 Tuesday, February 22nd at 6:52 pm)
+# Line count (including blank lines and compiler line): 19
+# End of script

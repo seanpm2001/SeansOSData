@@ -1,0 +1,15 @@
+windows
+linux
+html
+gplv3
+personal
+bsd
+md
+txt
+gpl3
+seanpm2001-life-archive
+seanpm2001-lifearchive
+seanpm2001
+seanpm2001-personal
+operating-system-data
+seansosdata
